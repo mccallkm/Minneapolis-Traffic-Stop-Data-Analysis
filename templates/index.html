@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DOW Bar</title>
+    <title>Stops by D.O.W.</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -16,9 +16,30 @@
     <link rel="stylesheet" href="../static/css/d3Style.css">
 </head>
 <body>
-    <div id=bar></div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+              <div class="well">
+                <h5>SELECT Neighborhood 1:</h5>
+                <!-- neighborhood1 selection happens here -->
+                <select id="selDataset1" onchange="selectChanged(this.value,'1')"></select>
+              </div>
 
-    <div id=bar2></div>
+              <div id=bar1></div>
+          </div>  
+          <div class="col-md-6">
+            <div class="well">
+                <h5>SELECT Neighborhood 2:</h5>
+                <!-- neighborhood2 selection happens here -->
+                <select id="selDataset2" onchange="selectChanged(this.value,'2')"></select>
+            </div>
+
+            <div id=bar2></div>
+          </div>
+        </div>
+    </div>  
+
+
     <!-- plotly script -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
       <!-- bootstrap scripts -->

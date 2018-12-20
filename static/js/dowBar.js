@@ -1,98 +1,100 @@
 // display 2 bar charts for comparison
-// choice is which neighborhoods will be graphed
+// 
 
-choice1 = "Whittier";
-choice2 = "Near - North";
+//*********************************************** */
+// function to initialize the graph trace values since they 
+// are mostly the same except 'name'
+function initTrace( name){
+  var trace = {
+    x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
+    y: [0,0,0,0,0,0,0],
+    name: name,
+    type: 'bar'
+  };
+  return trace;
+}
 
-d3.csv("../static/data/dow_bar2.csv").then(function (response){
-  // if (error) throw error;
- 
-   console.log(response);
-
-   // 6 traces for 2 bar graphs
-var male1 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Male',
-  type: 'bar'
-};
-
-var female1 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Female',
-  type: 'bar'
-};
-
-var other1 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Other',
-  type: 'bar'
-};
-var male2 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Male',
-  type: 'bar'
-};
-
-var female2 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Female',
-  type: 'bar'
-};
-
-var other2 = {
-  x: ['Sun', 'Mon', 'Tue', 'Wed','Thu','Fri','Sat'],
-  y: [0,0,0,0,0,0,0],
-  name: 'Other',
-  type: 'bar'
-};
-
-
-// loop through data and save to y values above for plotting 
-  response.forEach(function (d) {
-    // convert string to number
-    d.dow= +d.dow;
-    d.genderCount= +d.genderCount;
-
- 
-    if (d.neighborhood === choice1 ) {
- 
-      if (d.gender === "Female"){
-       female1.y[d.dow]= d.genderCount
-      } else if (d.gender === "Male"){
-        male1.y[d.dow] = d.genderCount
-      } else if (d.gender === "Other"){
-        other1.y[d.dow] = d.genderCount
-      }
-      } else if (d.neighborhood=== choice2){
+//*************************************** */
+// function to build a bar chart with 
+// 'choice' = neighborhood selected 
+// 'graphId' id for location in the html
+function buildChart (choice, graphId) {
+  d3.csv("../static/data/clean_dow_data.csv").then(function (response){
   
+  console.log(response);
+
+    //initialize traces for bar graphs
+    var male = initTrace('Male');
+    var female = initTrace('Female');
+    var other = initTrace('Other');
+
+  // loop through data and save to y values above for plotting 
+    response.forEach(function (d) {
+      // convert string to number
+      d.responseDow= +d.responseDow;
+      d.genderCount= +d.genderCount;
+
+  
+      if (d.neighborhood === choice ) {
         if (d.gender === "Female"){
-          female2.y[d.dow]= d.genderCount
+        female.y[d.responseDow]= d.genderCount
         } else if (d.gender === "Male"){
-          male2.y[d.dow] = d.genderCount
+          male.y[d.responseDow] = d.genderCount
         } else if (d.gender === "Other"){
-          other2.y[d.dow] = d.genderCount
+          other.y[d.responseDow] = d.genderCount
         }
-      }   
-     })
-  
-    // plot two bar graphs
-    
-  var data = [male1,other1,female1];
-  
-  var layout = {barmode: 'stack',title:choice1};
-  
-  Plotly.newPlot('bar', data, layout);
+      }        
+    })
 
+    // plot bar graph 
+  var data = [male,other,female];
+  var layout = {barmode: 'stack',title:choice};    
+  Plotly.newPlot(graphId, data, layout);
+  });
+}
 
-  
-  var data2 = [male2, other2, female2];
-  
-  var layout2 = {barmode: 'stack', title:choice2};
-  
-  Plotly.newPlot('bar2', data2, layout2);
-});
+//****************************************************** */
+// add neighborhood list to html for graph 1 and 2and 
+//build chart with first 2 neighborhoods
+function initPage(){
+  var selector1 = d3.select("#selDataset1");
+  var selector2 = d3.select("#selDataset2");
+  //console.log("init");
+  // Use the list of sample names to populate the select options
+  d3.csv("../static/data/neighborhood_data.csv").then((response) => {
+    response.forEach((entry) => {
+  console.log(entry.neighborhood);
+      selector1
+        .append("option")
+        .text(entry.neighborhood)
+        .property("value", entry.neighborhood);
+    });
+
+    response.forEach((entry) => {
+      selector2 
+        .append("option")
+        .text(entry.neighborhood)
+        .property("value",entry.neighborhood);
+    })
+
+    var choice=response[0].neighborhood;
+    buildChart(choice,'bar1');
+    choice=response[1].neighborhood;
+    buildChart(choice,'bar2'); 
+  })
+
+}
+
+//******************************************************* */
+// a new neighborhood has been selected 'graph' indicates 
+// which graph needs to be updated
+function selectChanged (newNeighborhood,graph){
+
+  if(graph === '1'){
+    buildChart(newNeighborhood,'bar1')
+  } else if (graph === '2'){
+    buildChart(newNeighborhood,'bar2')
+  }
+}
+
+initPage();
