@@ -1,0 +1,1803 @@
+neighborhood,responseDow,gender,genderCount
+Armatage,0,Female,1
+Armatage,0,Male,9
+Armatage,0,Other,9
+Armatage,1,Female,2
+Armatage,1,Male,6
+Armatage,1,Other,12
+Armatage,2,Female,6
+Armatage,2,Male,5
+Armatage,2,Other,8
+Armatage,3,Female,4
+Armatage,3,Male,5
+Armatage,3,Other,13
+Armatage,4,Female,2
+Armatage,4,Male,6
+Armatage,4,Other,14
+Armatage,5,Female,3
+Armatage,5,Male,11
+Armatage,5,Other,10
+Armatage,6,Female,3
+Armatage,6,Male,12
+Armatage,6,Other,13
+Audubon Park,0,Female,35
+Audubon Park,0,Male,84
+Audubon Park,0,Other,18
+Audubon Park,1,Female,40
+Audubon Park,1,Male,97
+Audubon Park,1,Other,18
+Audubon Park,2,Female,44
+Audubon Park,2,Male,119
+Audubon Park,2,Other,24
+Audubon Park,3,Female,45
+Audubon Park,3,Male,131
+Audubon Park,3,Other,14
+Audubon Park,4,Female,61
+Audubon Park,4,Male,114
+Audubon Park,4,Other,23
+Audubon Park,5,Female,59
+Audubon Park,5,Male,135
+Audubon Park,5,Other,22
+Audubon Park,6,Female,37
+Audubon Park,6,Male,85
+Audubon Park,6,Other,12
+Bancroft,0,Female,1
+Bancroft,0,Male,14
+Bancroft,0,Other,11
+Bancroft,1,Female,3
+Bancroft,1,Male,15
+Bancroft,1,Other,7
+Bancroft,2,Female,3
+Bancroft,2,Male,20
+Bancroft,2,Other,8
+Bancroft,3,Female,5
+Bancroft,3,Male,30
+Bancroft,3,Other,9
+Bancroft,4,Female,3
+Bancroft,4,Male,14
+Bancroft,4,Other,11
+Bancroft,5,Female,6
+Bancroft,5,Male,18
+Bancroft,5,Other,10
+Bancroft,6,Female,3
+Bancroft,6,Male,13
+Bancroft,6,Other,15
+Beltrami,0,Female,11
+Beltrami,0,Male,28
+Beltrami,0,Other,6
+Beltrami,1,Female,16
+Beltrami,1,Male,31
+Beltrami,1,Other,8
+Beltrami,2,Female,22
+Beltrami,2,Male,35
+Beltrami,2,Other,12
+Beltrami,3,Female,17
+Beltrami,3,Male,39
+Beltrami,3,Other,4
+Beltrami,4,Female,23
+Beltrami,4,Male,39
+Beltrami,4,Other,5
+Beltrami,5,Female,23
+Beltrami,5,Male,45
+Beltrami,5,Other,6
+Beltrami,6,Female,22
+Beltrami,6,Male,39
+Beltrami,6,Other,10
+Bottineau,0,Female,23
+Bottineau,0,Male,51
+Bottineau,0,Other,11
+Bottineau,1,Female,25
+Bottineau,1,Male,66
+Bottineau,1,Other,9
+Bottineau,2,Female,28
+Bottineau,2,Male,68
+Bottineau,2,Other,4
+Bottineau,3,Female,23
+Bottineau,3,Male,75
+Bottineau,3,Other,5
+Bottineau,4,Female,18
+Bottineau,4,Male,45
+Bottineau,4,Other,9
+Bottineau,5,Female,29
+Bottineau,5,Male,59
+Bottineau,5,Other,7
+Bottineau,6,Female,31
+Bottineau,6,Male,50
+Bottineau,6,Other,5
+Bryant,0,Female,1
+Bryant,0,Male,12
+Bryant,0,Other,4
+Bryant,1,Male,9
+Bryant,1,Other,8
+Bryant,2,Female,2
+Bryant,2,Male,7
+Bryant,2,Other,5
+Bryant,3,Female,5
+Bryant,3,Male,12
+Bryant,3,Other,7
+Bryant,4,Female,2
+Bryant,4,Male,22
+Bryant,4,Other,7
+Bryant,5,Female,4
+Bryant,5,Male,14
+Bryant,5,Other,12
+Bryant,6,Female,4
+Bryant,6,Male,13
+Bryant,6,Other,11
+Bryn - Mawr,0,Female,4
+Bryn - Mawr,0,Male,14
+Bryn - Mawr,0,Other,15
+Bryn - Mawr,1,Female,3
+Bryn - Mawr,1,Male,10
+Bryn - Mawr,1,Other,6
+Bryn - Mawr,2,Female,9
+Bryn - Mawr,2,Male,17
+Bryn - Mawr,2,Other,11
+Bryn - Mawr,3,Female,4
+Bryn - Mawr,3,Male,13
+Bryn - Mawr,3,Other,9
+Bryn - Mawr,4,Female,7
+Bryn - Mawr,4,Male,19
+Bryn - Mawr,4,Other,10
+Bryn - Mawr,5,Female,11
+Bryn - Mawr,5,Male,25
+Bryn - Mawr,5,Other,14
+Bryn - Mawr,6,Female,6
+Bryn - Mawr,6,Male,18
+Bryn - Mawr,6,Other,10
+CARAG,0,Female,17
+CARAG,0,Male,60
+CARAG,0,Other,17
+CARAG,1,Female,35
+CARAG,1,Male,84
+CARAG,1,Other,15
+CARAG,2,Female,34
+CARAG,2,Male,80
+CARAG,2,Other,17
+CARAG,3,Female,32
+CARAG,3,Male,77
+CARAG,3,Other,27
+CARAG,4,Female,43
+CARAG,4,Male,96
+CARAG,4,Other,20
+CARAG,5,Female,31
+CARAG,5,Male,90
+CARAG,5,Other,26
+CARAG,6,Female,32
+CARAG,6,Male,92
+CARAG,6,Other,23
+Camden Industrial,0,Male,4
+Camden Industrial,1,Female,2
+Camden Industrial,1,Male,5
+Camden Industrial,1,Other,1
+Camden Industrial,2,Female,3
+Camden Industrial,2,Male,13
+Camden Industrial,3,Female,3
+Camden Industrial,3,Male,1
+Camden Industrial,3,Other,3
+Camden Industrial,4,Female,2
+Camden Industrial,4,Male,6
+Camden Industrial,4,Other,2
+Camden Industrial,5,Female,4
+Camden Industrial,5,Male,8
+Camden Industrial,5,Other,1
+Camden Industrial,6,Female,2
+Camden Industrial,6,Male,6
+Camden Industrial,6,Other,3
+Cedar - Isles - Dean,0,Female,8
+Cedar - Isles - Dean,0,Male,12
+Cedar - Isles - Dean,0,Other,6
+Cedar - Isles - Dean,1,Female,6
+Cedar - Isles - Dean,1,Male,20
+Cedar - Isles - Dean,1,Other,2
+Cedar - Isles - Dean,2,Female,11
+Cedar - Isles - Dean,2,Male,30
+Cedar - Isles - Dean,2,Other,1
+Cedar - Isles - Dean,3,Female,11
+Cedar - Isles - Dean,3,Male,20
+Cedar - Isles - Dean,3,Other,6
+Cedar - Isles - Dean,4,Female,11
+Cedar - Isles - Dean,4,Male,24
+Cedar - Isles - Dean,4,Other,6
+Cedar - Isles - Dean,5,Female,15
+Cedar - Isles - Dean,5,Male,17
+Cedar - Isles - Dean,5,Other,3
+Cedar - Isles - Dean,6,Female,11
+Cedar - Isles - Dean,6,Male,19
+Cedar - Isles - Dean,6,Other,8
+Cedar Riverside,0,Female,21
+Cedar Riverside,0,Male,103
+Cedar Riverside,0,Other,20
+Cedar Riverside,1,Female,24
+Cedar Riverside,1,Male,112
+Cedar Riverside,1,Other,27
+Cedar Riverside,2,Female,28
+Cedar Riverside,2,Male,119
+Cedar Riverside,2,Other,39
+Cedar Riverside,3,Female,22
+Cedar Riverside,3,Male,96
+Cedar Riverside,3,Other,35
+Cedar Riverside,4,Female,22
+Cedar Riverside,4,Male,119
+Cedar Riverside,4,Other,33
+Cedar Riverside,5,Female,33
+Cedar Riverside,5,Male,116
+Cedar Riverside,5,Other,29
+Cedar Riverside,6,Female,23
+Cedar Riverside,6,Male,98
+Cedar Riverside,6,Other,28
+Central,0,Female,17
+Central,0,Male,100
+Central,0,Other,44
+Central,1,Female,31
+Central,1,Male,93
+Central,1,Other,34
+Central,2,Female,39
+Central,2,Male,114
+Central,2,Other,36
+Central,3,Female,41
+Central,3,Male,122
+Central,3,Other,36
+Central,4,Female,33
+Central,4,Male,105
+Central,4,Other,36
+Central,5,Female,41
+Central,5,Male,128
+Central,5,Other,51
+Central,6,Female,38
+Central,6,Male,89
+Central,6,Other,53
+Cleveland,0,Female,5
+Cleveland,0,Male,25
+Cleveland,0,Other,20
+Cleveland,1,Female,7
+Cleveland,1,Male,45
+Cleveland,1,Other,19
+Cleveland,2,Female,19
+Cleveland,2,Male,60
+Cleveland,2,Other,22
+Cleveland,3,Female,21
+Cleveland,3,Male,77
+Cleveland,3,Other,22
+Cleveland,4,Female,20
+Cleveland,4,Male,52
+Cleveland,4,Other,16
+Cleveland,5,Female,12
+Cleveland,5,Male,49
+Cleveland,5,Other,30
+Cleveland,6,Female,10
+Cleveland,6,Male,34
+Cleveland,6,Other,34
+Columbia Park,0,Female,10
+Columbia Park,0,Male,26
+Columbia Park,0,Other,7
+Columbia Park,1,Female,10
+Columbia Park,1,Male,25
+Columbia Park,1,Other,6
+Columbia Park,2,Female,9
+Columbia Park,2,Male,30
+Columbia Park,2,Other,6
+Columbia Park,3,Female,9
+Columbia Park,3,Male,29
+Columbia Park,3,Other,9
+Columbia Park,4,Female,9
+Columbia Park,4,Male,32
+Columbia Park,4,Other,10
+Columbia Park,5,Female,9
+Columbia Park,5,Male,32
+Columbia Park,5,Other,9
+Columbia Park,6,Female,7
+Columbia Park,6,Male,15
+Columbia Park,6,Other,7
+Como,0,Female,28
+Como,0,Male,68
+Como,0,Other,11
+Como,1,Female,15
+Como,1,Male,52
+Como,1,Other,10
+Como,2,Female,25
+Como,2,Male,69
+Como,2,Other,22
+Como,3,Female,25
+Como,3,Male,85
+Como,3,Other,22
+Como,4,Female,34
+Como,4,Male,79
+Como,4,Other,21
+Como,5,Female,27
+Como,5,Male,85
+Como,5,Other,20
+Como,6,Female,33
+Como,6,Male,78
+Como,6,Other,17
+Cooper,0,Female,7
+Cooper,0,Male,10
+Cooper,0,Other,7
+Cooper,1,Female,7
+Cooper,1,Male,28
+Cooper,1,Other,5
+Cooper,2,Female,7
+Cooper,2,Male,15
+Cooper,2,Other,7
+Cooper,3,Female,8
+Cooper,3,Male,21
+Cooper,3,Other,7
+Cooper,4,Female,4
+Cooper,4,Male,12
+Cooper,4,Other,7
+Cooper,5,Female,9
+Cooper,5,Male,23
+Cooper,5,Other,9
+Cooper,6,Female,15
+Cooper,6,Male,25
+Cooper,6,Other,5
+Corcoran,0,Female,10
+Corcoran,0,Male,38
+Corcoran,0,Other,17
+Corcoran,1,Female,14
+Corcoran,1,Male,48
+Corcoran,1,Other,20
+Corcoran,2,Female,11
+Corcoran,2,Male,58
+Corcoran,2,Other,32
+Corcoran,3,Female,24
+Corcoran,3,Male,64
+Corcoran,3,Other,26
+Corcoran,4,Female,15
+Corcoran,4,Male,39
+Corcoran,4,Other,24
+Corcoran,5,Female,16
+Corcoran,5,Male,63
+Corcoran,5,Other,25
+Corcoran,6,Female,13
+Corcoran,6,Male,45
+Corcoran,6,Other,25
+Diamond Lake,0,Female,2
+Diamond Lake,0,Male,9
+Diamond Lake,0,Other,13
+Diamond Lake,1,Female,4
+Diamond Lake,1,Male,14
+Diamond Lake,1,Other,12
+Diamond Lake,2,Female,3
+Diamond Lake,2,Male,18
+Diamond Lake,2,Other,13
+Diamond Lake,3,Female,2
+Diamond Lake,3,Male,16
+Diamond Lake,3,Other,10
+Diamond Lake,4,Female,2
+Diamond Lake,4,Male,23
+Diamond Lake,4,Other,19
+Diamond Lake,5,Female,10
+Diamond Lake,5,Male,22
+Diamond Lake,5,Other,11
+Diamond Lake,6,Female,1
+Diamond Lake,6,Male,20
+Diamond Lake,6,Other,10
+Downtown East,0,Female,13
+Downtown East,0,Male,43
+Downtown East,0,Other,13
+Downtown East,1,Female,23
+Downtown East,1,Male,48
+Downtown East,1,Other,5
+Downtown East,2,Female,27
+Downtown East,2,Male,42
+Downtown East,2,Other,10
+Downtown East,3,Female,15
+Downtown East,3,Male,26
+Downtown East,3,Other,17
+Downtown East,4,Female,17
+Downtown East,4,Male,55
+Downtown East,4,Other,19
+Downtown East,5,Female,18
+Downtown East,5,Male,40
+Downtown East,5,Other,16
+Downtown East,6,Female,15
+Downtown East,6,Male,56
+Downtown East,6,Other,7
+Downtown West,0,Female,155
+Downtown West,0,Male,632
+Downtown West,0,Other,61
+Downtown West,1,Female,206
+Downtown West,1,Male,660
+Downtown West,1,Other,63
+Downtown West,2,Female,166
+Downtown West,2,Male,680
+Downtown West,2,Other,74
+Downtown West,3,Female,162
+Downtown West,3,Male,667
+Downtown West,3,Other,65
+Downtown West,4,Female,164
+Downtown West,4,Male,706
+Downtown West,4,Other,64
+Downtown West,5,Female,228
+Downtown West,5,Male,828
+Downtown West,5,Other,67
+Downtown West,6,Female,212
+Downtown West,6,Male,770
+Downtown West,6,Other,71
+ECCO,0,Female,10
+ECCO,0,Male,30
+ECCO,0,Other,11
+ECCO,1,Female,15
+ECCO,1,Male,34
+ECCO,1,Other,9
+ECCO,2,Female,23
+ECCO,2,Male,51
+ECCO,2,Other,15
+ECCO,3,Female,15
+ECCO,3,Male,55
+ECCO,3,Other,13
+ECCO,4,Female,21
+ECCO,4,Male,41
+ECCO,4,Other,12
+ECCO,5,Female,18
+ECCO,5,Male,44
+ECCO,5,Other,12
+ECCO,6,Female,12
+ECCO,6,Male,49
+ECCO,6,Other,20
+East Harriet,0,Female,9
+East Harriet,0,Male,26
+East Harriet,0,Other,6
+East Harriet,1,Female,9
+East Harriet,1,Male,33
+East Harriet,1,Other,13
+East Harriet,2,Female,11
+East Harriet,2,Male,25
+East Harriet,2,Other,5
+East Harriet,3,Female,16
+East Harriet,3,Male,20
+East Harriet,3,Other,9
+East Harriet,4,Female,20
+East Harriet,4,Male,24
+East Harriet,4,Other,6
+East Harriet,5,Female,13
+East Harriet,5,Male,18
+East Harriet,5,Other,12
+East Harriet,6,Female,10
+East Harriet,6,Male,18
+East Harriet,6,Other,12
+East Isles,0,Female,17
+East Isles,0,Male,58
+East Isles,0,Other,8
+East Isles,1,Female,44
+East Isles,1,Male,63
+East Isles,1,Other,9
+East Isles,2,Female,54
+East Isles,2,Male,83
+East Isles,2,Other,6
+East Isles,3,Female,47
+East Isles,3,Male,96
+East Isles,3,Other,8
+East Isles,4,Female,49
+East Isles,4,Male,79
+East Isles,4,Other,8
+East Isles,5,Female,42
+East Isles,5,Male,65
+East Isles,5,Other,7
+East Isles,6,Female,20
+East Isles,6,Male,61
+East Isles,6,Other,16
+East Phillips,0,Female,61
+East Phillips,0,Male,152
+East Phillips,0,Other,41
+East Phillips,1,Female,81
+East Phillips,1,Male,180
+East Phillips,1,Other,56
+East Phillips,2,Female,67
+East Phillips,2,Male,207
+East Phillips,2,Other,49
+East Phillips,3,Female,75
+East Phillips,3,Male,260
+East Phillips,3,Other,56
+East Phillips,4,Female,86
+East Phillips,4,Male,221
+East Phillips,4,Other,55
+East Phillips,5,Female,94
+East Phillips,5,Male,242
+East Phillips,5,Other,53
+East Phillips,6,Female,64
+East Phillips,6,Male,180
+East Phillips,6,Other,47
+Elliot Park,0,Female,12
+Elliot Park,0,Male,67
+Elliot Park,0,Other,25
+Elliot Park,1,Female,20
+Elliot Park,1,Male,72
+Elliot Park,1,Other,31
+Elliot Park,2,Female,24
+Elliot Park,2,Male,79
+Elliot Park,2,Other,43
+Elliot Park,3,Female,22
+Elliot Park,3,Male,92
+Elliot Park,3,Other,34
+Elliot Park,4,Female,18
+Elliot Park,4,Male,75
+Elliot Park,4,Other,37
+Elliot Park,5,Female,21
+Elliot Park,5,Male,119
+Elliot Park,5,Other,43
+Elliot Park,6,Female,23
+Elliot Park,6,Male,82
+Elliot Park,6,Other,26
+Ericsson,0,Female,3
+Ericsson,0,Male,17
+Ericsson,0,Other,5
+Ericsson,1,Female,2
+Ericsson,1,Male,12
+Ericsson,1,Other,9
+Ericsson,2,Female,4
+Ericsson,2,Male,14
+Ericsson,2,Other,14
+Ericsson,3,Female,8
+Ericsson,3,Male,14
+Ericsson,3,Other,12
+Ericsson,4,Female,4
+Ericsson,4,Male,23
+Ericsson,4,Other,12
+Ericsson,5,Female,8
+Ericsson,5,Male,30
+Ericsson,5,Other,10
+Ericsson,6,Female,5
+Ericsson,6,Male,13
+Ericsson,6,Other,12
+Field,0,Female,4
+Field,0,Male,8
+Field,0,Other,7
+Field,1,Female,2
+Field,1,Male,15
+Field,1,Other,7
+Field,2,Female,4
+Field,2,Male,12
+Field,2,Other,2
+Field,3,Female,2
+Field,3,Male,8
+Field,3,Other,12
+Field,4,Female,3
+Field,4,Male,8
+Field,4,Other,9
+Field,5,Female,3
+Field,5,Male,16
+Field,5,Other,5
+Field,6,Female,3
+Field,6,Male,9
+Field,6,Other,5
+Folwell,0,Female,36
+Folwell,0,Male,84
+Folwell,0,Other,51
+Folwell,1,Female,52
+Folwell,1,Male,190
+Folwell,1,Other,56
+Folwell,2,Female,81
+Folwell,2,Male,228
+Folwell,2,Other,51
+Folwell,3,Female,81
+Folwell,3,Male,294
+Folwell,3,Other,51
+Folwell,4,Female,69
+Folwell,4,Male,205
+Folwell,4,Other,56
+Folwell,5,Female,69
+Folwell,5,Male,217
+Folwell,5,Other,57
+Folwell,6,Female,51
+Folwell,6,Male,133
+Folwell,6,Other,51
+Fulton,0,Female,3
+Fulton,0,Male,15
+Fulton,0,Other,5
+Fulton,1,Female,8
+Fulton,1,Male,15
+Fulton,1,Other,10
+Fulton,2,Female,6
+Fulton,2,Male,10
+Fulton,2,Other,14
+Fulton,3,Female,14
+Fulton,3,Male,23
+Fulton,3,Other,8
+Fulton,4,Female,15
+Fulton,4,Male,16
+Fulton,4,Other,16
+Fulton,5,Female,10
+Fulton,5,Male,12
+Fulton,5,Other,16
+Fulton,6,Female,3
+Fulton,6,Male,9
+Fulton,6,Other,10
+Hale,0,Female,2
+Hale,0,Male,9
+Hale,0,Other,10
+Hale,1,Female,2
+Hale,1,Male,6
+Hale,1,Other,5
+Hale,2,Female,4
+Hale,2,Male,10
+Hale,2,Other,6
+Hale,3,Female,3
+Hale,3,Male,5
+Hale,3,Other,5
+Hale,4,Female,2
+Hale,4,Male,5
+Hale,4,Other,5
+Hale,5,Female,3
+Hale,5,Male,5
+Hale,5,Other,7
+Hale,6,Female,3
+Hale,6,Male,4
+Hale,6,Other,4
+Harrison,0,Female,8
+Harrison,0,Male,32
+Harrison,0,Other,20
+Harrison,1,Female,16
+Harrison,1,Male,53
+Harrison,1,Other,25
+Harrison,2,Female,31
+Harrison,2,Male,76
+Harrison,2,Other,25
+Harrison,3,Female,22
+Harrison,3,Male,61
+Harrison,3,Other,20
+Harrison,4,Female,21
+Harrison,4,Male,73
+Harrison,4,Other,29
+Harrison,5,Female,27
+Harrison,5,Male,76
+Harrison,5,Other,28
+Harrison,6,Female,13
+Harrison,6,Male,54
+Harrison,6,Other,16
+Hawthorne,0,Female,55
+Hawthorne,0,Male,180
+Hawthorne,0,Other,60
+Hawthorne,1,Female,112
+Hawthorne,1,Male,315
+Hawthorne,1,Other,77
+Hawthorne,2,Female,140
+Hawthorne,2,Male,444
+Hawthorne,2,Other,78
+Hawthorne,3,Female,149
+Hawthorne,3,Male,471
+Hawthorne,3,Other,67
+Hawthorne,4,Female,130
+Hawthorne,4,Male,410
+Hawthorne,4,Other,57
+Hawthorne,5,Female,143
+Hawthorne,5,Male,461
+Hawthorne,5,Other,54
+Hawthorne,6,Female,122
+Hawthorne,6,Male,296
+Hawthorne,6,Other,57
+Hiawatha,0,Female,7
+Hiawatha,0,Male,25
+Hiawatha,0,Other,16
+Hiawatha,1,Female,10
+Hiawatha,1,Male,26
+Hiawatha,1,Other,13
+Hiawatha,2,Female,10
+Hiawatha,2,Male,28
+Hiawatha,2,Other,16
+Hiawatha,3,Female,15
+Hiawatha,3,Male,45
+Hiawatha,3,Other,11
+Hiawatha,4,Female,11
+Hiawatha,4,Male,35
+Hiawatha,4,Other,19
+Hiawatha,5,Female,13
+Hiawatha,5,Male,46
+Hiawatha,5,Other,22
+Hiawatha,6,Female,20
+Hiawatha,6,Male,64
+Hiawatha,6,Other,19
+Holland,0,Female,73
+Holland,0,Male,184
+Holland,0,Other,26
+Holland,1,Female,79
+Holland,1,Male,211
+Holland,1,Other,18
+Holland,2,Female,93
+Holland,2,Male,219
+Holland,2,Other,18
+Holland,3,Female,106
+Holland,3,Male,226
+Holland,3,Other,17
+Holland,4,Female,73
+Holland,4,Male,182
+Holland,4,Other,20
+Holland,5,Female,87
+Holland,5,Male,267
+Holland,5,Other,33
+Holland,6,Female,87
+Holland,6,Male,198
+Holland,6,Other,21
+Howe,0,Female,5
+Howe,0,Male,32
+Howe,0,Other,22
+Howe,1,Female,4
+Howe,1,Male,40
+Howe,1,Other,32
+Howe,2,Female,8
+Howe,2,Male,29
+Howe,2,Other,10
+Howe,3,Female,9
+Howe,3,Male,37
+Howe,3,Other,16
+Howe,4,Female,7
+Howe,4,Male,32
+Howe,4,Other,18
+Howe,5,Female,9
+Howe,5,Male,38
+Howe,5,Other,14
+Howe,6,Female,5
+Howe,6,Male,39
+Howe,6,Other,11
+Humboldt Industrial Area,1,Female,1
+Humboldt Industrial Area,2,Other,1
+Humboldt Industrial Area,3,Male,3
+Humboldt Industrial Area,3,Other,2
+Humboldt Industrial Area,4,Female,3
+Humboldt Industrial Area,4,Male,2
+Humboldt Industrial Area,5,Other,1
+Humboldt Industrial Area,6,Other,1
+Jordan,0,Female,48
+Jordan,0,Male,139
+Jordan,0,Other,58
+Jordan,1,Female,91
+Jordan,1,Male,312
+Jordan,1,Other,68
+Jordan,2,Female,116
+Jordan,2,Male,444
+Jordan,2,Other,67
+Jordan,3,Female,129
+Jordan,3,Male,456
+Jordan,3,Other,91
+Jordan,4,Female,125
+Jordan,4,Male,415
+Jordan,4,Other,62
+Jordan,5,Female,132
+Jordan,5,Male,326
+Jordan,5,Other,84
+Jordan,6,Female,85
+Jordan,6,Male,215
+Jordan,6,Other,75
+Keewaydin,0,Female,2
+Keewaydin,0,Male,13
+Keewaydin,0,Other,8
+Keewaydin,1,Female,3
+Keewaydin,1,Male,15
+Keewaydin,1,Other,12
+Keewaydin,2,Female,2
+Keewaydin,2,Male,12
+Keewaydin,2,Other,9
+Keewaydin,3,Female,4
+Keewaydin,3,Male,9
+Keewaydin,3,Other,10
+Keewaydin,4,Female,4
+Keewaydin,4,Male,25
+Keewaydin,4,Other,8
+Keewaydin,5,Female,2
+Keewaydin,5,Male,18
+Keewaydin,5,Other,14
+Keewaydin,6,Female,3
+Keewaydin,6,Male,13
+Keewaydin,6,Other,4
+Kenny,0,Female,2
+Kenny,0,Male,13
+Kenny,0,Other,8
+Kenny,1,Female,9
+Kenny,1,Male,17
+Kenny,1,Other,7
+Kenny,2,Female,6
+Kenny,2,Male,12
+Kenny,2,Other,10
+Kenny,3,Female,7
+Kenny,3,Male,9
+Kenny,3,Other,9
+Kenny,4,Female,7
+Kenny,4,Male,17
+Kenny,4,Other,7
+Kenny,5,Female,5
+Kenny,5,Male,12
+Kenny,5,Other,7
+Kenny,6,Female,5
+Kenny,6,Male,14
+Kenny,6,Other,11
+Kenwood,0,Female,4
+Kenwood,0,Male,5
+Kenwood,0,Other,3
+Kenwood,1,Female,20
+Kenwood,1,Male,18
+Kenwood,1,Other,2
+Kenwood,2,Female,9
+Kenwood,2,Male,9
+Kenwood,2,Other,4
+Kenwood,3,Female,24
+Kenwood,3,Male,37
+Kenwood,3,Other,9
+Kenwood,4,Female,15
+Kenwood,4,Male,16
+Kenwood,4,Other,2
+Kenwood,5,Female,15
+Kenwood,5,Male,16
+Kenwood,5,Other,1
+Kenwood,6,Female,3
+Kenwood,6,Male,4
+Kenwood,6,Other,5
+King Field,0,Female,33
+King Field,0,Male,69
+King Field,0,Other,38
+King Field,1,Female,86
+King Field,1,Male,134
+King Field,1,Other,23
+King Field,2,Female,111
+King Field,2,Male,150
+King Field,2,Other,21
+King Field,3,Female,86
+King Field,3,Male,149
+King Field,3,Other,30
+King Field,4,Female,84
+King Field,4,Male,166
+King Field,4,Other,32
+King Field,5,Female,76
+King Field,5,Male,154
+King Field,5,Other,23
+King Field,6,Female,26
+King Field,6,Male,87
+King Field,6,Other,27
+Lind - Bohanon,0,Female,14
+Lind - Bohanon,0,Male,30
+Lind - Bohanon,0,Other,42
+Lind - Bohanon,1,Female,11
+Lind - Bohanon,1,Male,42
+Lind - Bohanon,1,Other,36
+Lind - Bohanon,2,Female,11
+Lind - Bohanon,2,Male,61
+Lind - Bohanon,2,Other,38
+Lind - Bohanon,3,Female,13
+Lind - Bohanon,3,Male,55
+Lind - Bohanon,3,Other,39
+Lind - Bohanon,4,Female,18
+Lind - Bohanon,4,Male,52
+Lind - Bohanon,4,Other,31
+Lind - Bohanon,5,Female,11
+Lind - Bohanon,5,Male,56
+Lind - Bohanon,5,Other,33
+Lind - Bohanon,6,Female,14
+Lind - Bohanon,6,Male,49
+Lind - Bohanon,6,Other,38
+Linden Hills,0,Female,8
+Linden Hills,0,Male,18
+Linden Hills,0,Other,13
+Linden Hills,1,Female,17
+Linden Hills,1,Male,30
+Linden Hills,1,Other,10
+Linden Hills,2,Female,20
+Linden Hills,2,Male,40
+Linden Hills,2,Other,15
+Linden Hills,3,Female,11
+Linden Hills,3,Male,21
+Linden Hills,3,Other,10
+Linden Hills,4,Female,9
+Linden Hills,4,Male,20
+Linden Hills,4,Other,12
+Linden Hills,5,Female,20
+Linden Hills,5,Male,40
+Linden Hills,5,Other,19
+Linden Hills,6,Female,18
+Linden Hills,6,Male,35
+Linden Hills,6,Other,6
+Logan Park,0,Female,33
+Logan Park,0,Male,60
+Logan Park,0,Other,4
+Logan Park,1,Female,21
+Logan Park,1,Male,58
+Logan Park,1,Other,5
+Logan Park,2,Female,31
+Logan Park,2,Male,61
+Logan Park,2,Other,4
+Logan Park,3,Female,24
+Logan Park,3,Male,56
+Logan Park,3,Other,5
+Logan Park,4,Female,33
+Logan Park,4,Male,81
+Logan Park,4,Other,6
+Logan Park,5,Female,38
+Logan Park,5,Male,77
+Logan Park,5,Other,8
+Logan Park,6,Female,33
+Logan Park,6,Male,94
+Logan Park,6,Other,6
+Longfellow,0,Female,34
+Longfellow,0,Male,84
+Longfellow,0,Other,31
+Longfellow,1,Female,30
+Longfellow,1,Male,88
+Longfellow,1,Other,27
+Longfellow,2,Female,20
+Longfellow,2,Male,70
+Longfellow,2,Other,29
+Longfellow,3,Female,39
+Longfellow,3,Male,88
+Longfellow,3,Other,34
+Longfellow,4,Female,24
+Longfellow,4,Male,75
+Longfellow,4,Other,26
+Longfellow,5,Female,36
+Longfellow,5,Male,100
+Longfellow,5,Other,32
+Longfellow,6,Female,36
+Longfellow,6,Male,110
+Longfellow,6,Other,33
+Loring Park,0,Female,22
+Loring Park,0,Male,97
+Loring Park,0,Other,17
+Loring Park,1,Female,31
+Loring Park,1,Male,138
+Loring Park,1,Other,28
+Loring Park,2,Female,31
+Loring Park,2,Male,142
+Loring Park,2,Other,28
+Loring Park,3,Female,39
+Loring Park,3,Male,124
+Loring Park,3,Other,24
+Loring Park,4,Female,40
+Loring Park,4,Male,131
+Loring Park,4,Other,26
+Loring Park,5,Female,38
+Loring Park,5,Male,159
+Loring Park,5,Other,16
+Loring Park,6,Female,27
+Loring Park,6,Male,112
+Loring Park,6,Other,31
+Lowry Hill,0,Female,5
+Lowry Hill,0,Male,12
+Lowry Hill,0,Other,11
+Lowry Hill,1,Female,8
+Lowry Hill,1,Male,22
+Lowry Hill,1,Other,4
+Lowry Hill,2,Female,17
+Lowry Hill,2,Male,30
+Lowry Hill,2,Other,9
+Lowry Hill,3,Female,19
+Lowry Hill,3,Male,32
+Lowry Hill,3,Other,14
+Lowry Hill,4,Female,17
+Lowry Hill,4,Male,32
+Lowry Hill,4,Other,13
+Lowry Hill,5,Female,23
+Lowry Hill,5,Male,41
+Lowry Hill,5,Other,10
+Lowry Hill,6,Female,7
+Lowry Hill,6,Male,28
+Lowry Hill,6,Other,5
+Lowry Hill East,0,Female,69
+Lowry Hill East,0,Male,202
+Lowry Hill East,0,Other,52
+Lowry Hill East,1,Female,81
+Lowry Hill East,1,Male,189
+Lowry Hill East,1,Other,32
+Lowry Hill East,2,Female,98
+Lowry Hill East,2,Male,251
+Lowry Hill East,2,Other,40
+Lowry Hill East,3,Female,78
+Lowry Hill East,3,Male,209
+Lowry Hill East,3,Other,27
+Lowry Hill East,4,Female,85
+Lowry Hill East,4,Male,242
+Lowry Hill East,4,Other,43
+Lowry Hill East,5,Female,90
+Lowry Hill East,5,Male,236
+Lowry Hill East,5,Other,44
+Lowry Hill East,6,Female,87
+Lowry Hill East,6,Male,315
+Lowry Hill East,6,Other,46
+Lyndale,0,Female,82
+Lyndale,0,Male,235
+Lyndale,0,Other,43
+Lyndale,1,Female,102
+Lyndale,1,Male,346
+Lyndale,1,Other,28
+Lyndale,2,Female,135
+Lyndale,2,Male,388
+Lyndale,2,Other,54
+Lyndale,3,Female,127
+Lyndale,3,Male,349
+Lyndale,3,Other,52
+Lyndale,4,Female,155
+Lyndale,4,Male,308
+Lyndale,4,Other,37
+Lyndale,5,Female,125
+Lyndale,5,Male,337
+Lyndale,5,Other,46
+Lyndale,6,Female,114
+Lyndale,6,Male,303
+Lyndale,6,Other,34
+Lynnhurst,0,Female,8
+Lynnhurst,0,Male,16
+Lynnhurst,0,Other,8
+Lynnhurst,1,Female,36
+Lynnhurst,1,Male,63
+Lynnhurst,1,Other,7
+Lynnhurst,2,Female,19
+Lynnhurst,2,Male,29
+Lynnhurst,2,Other,11
+Lynnhurst,3,Female,29
+Lynnhurst,3,Male,28
+Lynnhurst,3,Other,15
+Lynnhurst,4,Female,20
+Lynnhurst,4,Male,35
+Lynnhurst,4,Other,8
+Lynnhurst,5,Female,11
+Lynnhurst,5,Male,28
+Lynnhurst,5,Other,12
+Lynnhurst,6,Female,4
+Lynnhurst,6,Male,16
+Lynnhurst,6,Other,4
+Marcy Holmes,0,Female,121
+Marcy Holmes,0,Male,265
+Marcy Holmes,0,Other,29
+Marcy Holmes,1,Female,56
+Marcy Holmes,1,Male,175
+Marcy Holmes,1,Other,35
+Marcy Holmes,2,Female,77
+Marcy Holmes,2,Male,183
+Marcy Holmes,2,Other,25
+Marcy Holmes,3,Female,95
+Marcy Holmes,3,Male,250
+Marcy Holmes,3,Other,28
+Marcy Holmes,4,Female,126
+Marcy Holmes,4,Male,259
+Marcy Holmes,4,Other,28
+Marcy Holmes,5,Female,104
+Marcy Holmes,5,Male,329
+Marcy Holmes,5,Other,45
+Marcy Holmes,6,Female,122
+Marcy Holmes,6,Male,334
+Marcy Holmes,6,Other,30
+Marshall Terrace,0,Female,38
+Marshall Terrace,0,Male,44
+Marshall Terrace,0,Other,11
+Marshall Terrace,1,Female,28
+Marshall Terrace,1,Male,44
+Marshall Terrace,1,Other,8
+Marshall Terrace,2,Female,33
+Marshall Terrace,2,Male,66
+Marshall Terrace,2,Other,6
+Marshall Terrace,3,Female,22
+Marshall Terrace,3,Male,76
+Marshall Terrace,3,Other,5
+Marshall Terrace,4,Female,14
+Marshall Terrace,4,Male,56
+Marshall Terrace,4,Other,6
+Marshall Terrace,5,Female,25
+Marshall Terrace,5,Male,46
+Marshall Terrace,5,Other,9
+Marshall Terrace,6,Female,25
+Marshall Terrace,6,Male,56
+Marshall Terrace,6,Other,6
+McKinley,0,Female,17
+McKinley,0,Male,70
+McKinley,0,Other,33
+McKinley,1,Female,47
+McKinley,1,Male,102
+McKinley,1,Other,41
+McKinley,2,Female,48
+McKinley,2,Male,137
+McKinley,2,Other,42
+McKinley,3,Female,62
+McKinley,3,Male,162
+McKinley,3,Other,29
+McKinley,4,Female,38
+McKinley,4,Male,132
+McKinley,4,Other,34
+McKinley,5,Female,38
+McKinley,5,Male,142
+McKinley,5,Other,49
+McKinley,6,Female,31
+McKinley,6,Male,104
+McKinley,6,Other,25
+Mid - City Industrial,0,Female,26
+Mid - City Industrial,0,Male,49
+Mid - City Industrial,0,Other,10
+Mid - City Industrial,1,Female,20
+Mid - City Industrial,1,Male,33
+Mid - City Industrial,1,Other,3
+Mid - City Industrial,2,Female,18
+Mid - City Industrial,2,Male,41
+Mid - City Industrial,2,Other,5
+Mid - City Industrial,3,Female,18
+Mid - City Industrial,3,Male,50
+Mid - City Industrial,3,Other,9
+Mid - City Industrial,4,Female,27
+Mid - City Industrial,4,Male,47
+Mid - City Industrial,4,Other,5
+Mid - City Industrial,5,Female,27
+Mid - City Industrial,5,Male,55
+Mid - City Industrial,5,Other,8
+Mid - City Industrial,6,Female,24
+Mid - City Industrial,6,Male,58
+Mid - City Industrial,6,Other,8
+Midtown Phillips,0,Female,33
+Midtown Phillips,0,Male,94
+Midtown Phillips,0,Other,34
+Midtown Phillips,1,Female,47
+Midtown Phillips,1,Male,114
+Midtown Phillips,1,Other,55
+Midtown Phillips,2,Female,63
+Midtown Phillips,2,Male,190
+Midtown Phillips,2,Other,62
+Midtown Phillips,3,Female,65
+Midtown Phillips,3,Male,188
+Midtown Phillips,3,Other,60
+Midtown Phillips,4,Female,58
+Midtown Phillips,4,Male,152
+Midtown Phillips,4,Other,45
+Midtown Phillips,5,Female,45
+Midtown Phillips,5,Male,147
+Midtown Phillips,5,Other,48
+Midtown Phillips,6,Female,40
+Midtown Phillips,6,Male,114
+Midtown Phillips,6,Other,40
+Minnehaha,0,Male,17
+Minnehaha,0,Other,9
+Minnehaha,1,Female,3
+Minnehaha,1,Male,16
+Minnehaha,1,Other,11
+Minnehaha,2,Female,4
+Minnehaha,2,Male,16
+Minnehaha,2,Other,8
+Minnehaha,3,Female,2
+Minnehaha,3,Male,12
+Minnehaha,3,Other,11
+Minnehaha,4,Female,6
+Minnehaha,4,Male,12
+Minnehaha,4,Other,4
+Minnehaha,5,Female,5
+Minnehaha,5,Male,11
+Minnehaha,5,Other,8
+Minnehaha,6,Female,3
+Minnehaha,6,Male,17
+Minnehaha,6,Other,12
+Morris Park,0,Female,2
+Morris Park,0,Male,9
+Morris Park,0,Other,6
+Morris Park,1,Female,6
+Morris Park,1,Male,10
+Morris Park,1,Other,6
+Morris Park,2,Female,6
+Morris Park,2,Male,11
+Morris Park,2,Other,9
+Morris Park,3,Female,3
+Morris Park,3,Male,13
+Morris Park,3,Other,7
+Morris Park,4,Female,8
+Morris Park,4,Male,14
+Morris Park,4,Other,9
+Morris Park,5,Female,2
+Morris Park,5,Male,14
+Morris Park,5,Other,7
+Morris Park,6,Female,1
+Morris Park,6,Male,8
+Morris Park,6,Other,1
+Near - North,0,Female,61
+Near - North,0,Male,183
+Near - North,0,Other,56
+Near - North,1,Female,99
+Near - North,1,Male,318
+Near - North,1,Other,71
+Near - North,2,Female,160
+Near - North,2,Male,450
+Near - North,2,Other,75
+Near - North,3,Female,154
+Near - North,3,Male,462
+Near - North,3,Other,88
+Near - North,4,Female,156
+Near - North,4,Male,413
+Near - North,4,Other,81
+Near - North,5,Female,157
+Near - North,5,Male,420
+Near - North,5,Other,80
+Near - North,6,Female,107
+Near - North,6,Male,267
+Near - North,6,Other,48
+Nicollet Island - East Bank,0,Female,80
+Nicollet Island - East Bank,0,Male,174
+Nicollet Island - East Bank,0,Other,8
+Nicollet Island - East Bank,1,Female,26
+Nicollet Island - East Bank,1,Male,78
+Nicollet Island - East Bank,1,Other,12
+Nicollet Island - East Bank,2,Female,22
+Nicollet Island - East Bank,2,Male,69
+Nicollet Island - East Bank,2,Other,4
+Nicollet Island - East Bank,3,Female,78
+Nicollet Island - East Bank,3,Male,131
+Nicollet Island - East Bank,3,Other,9
+Nicollet Island - East Bank,4,Female,110
+Nicollet Island - East Bank,4,Male,225
+Nicollet Island - East Bank,4,Other,6
+Nicollet Island - East Bank,5,Female,137
+Nicollet Island - East Bank,5,Male,259
+Nicollet Island - East Bank,5,Other,7
+Nicollet Island - East Bank,6,Female,76
+Nicollet Island - East Bank,6,Male,212
+Nicollet Island - East Bank,6,Other,10
+North Loop,0,Female,55
+North Loop,0,Male,150
+North Loop,0,Other,15
+North Loop,1,Female,30
+North Loop,1,Male,118
+North Loop,1,Other,20
+North Loop,2,Female,39
+North Loop,2,Male,140
+North Loop,2,Other,20
+North Loop,3,Female,37
+North Loop,3,Male,135
+North Loop,3,Other,14
+North Loop,4,Female,41
+North Loop,4,Male,112
+North Loop,4,Other,13
+North Loop,5,Female,73
+North Loop,5,Male,184
+North Loop,5,Other,22
+North Loop,6,Female,85
+North Loop,6,Male,209
+North Loop,6,Other,20
+Northeast Park,0,Female,19
+Northeast Park,0,Male,63
+Northeast Park,0,Other,9
+Northeast Park,1,Female,28
+Northeast Park,1,Male,40
+Northeast Park,1,Other,7
+Northeast Park,2,Female,25
+Northeast Park,2,Male,44
+Northeast Park,2,Other,7
+Northeast Park,3,Female,20
+Northeast Park,3,Male,64
+Northeast Park,3,Other,7
+Northeast Park,4,Female,25
+Northeast Park,4,Male,56
+Northeast Park,4,Other,8
+Northeast Park,5,Female,37
+Northeast Park,5,Male,70
+Northeast Park,5,Other,10
+Northeast Park,6,Female,24
+Northeast Park,6,Male,61
+Northeast Park,6,Other,6
+Northrop,0,Female,6
+Northrop,0,Male,15
+Northrop,0,Other,17
+Northrop,1,Female,6
+Northrop,1,Male,20
+Northrop,1,Other,17
+Northrop,2,Male,19
+Northrop,2,Other,14
+Northrop,3,Female,9
+Northrop,3,Male,20
+Northrop,3,Other,19
+Northrop,4,Female,5
+Northrop,4,Male,29
+Northrop,4,Other,18
+Northrop,5,Female,6
+Northrop,5,Male,19
+Northrop,5,Other,37
+Northrop,6,Female,7
+Northrop,6,Male,25
+Northrop,6,Other,14
+Page,0,Female,3
+Page,0,Other,5
+Page,1,Female,3
+Page,1,Male,6
+Page,1,Other,2
+Page,2,Female,3
+Page,2,Male,4
+Page,2,Other,4
+Page,3,Male,2
+Page,3,Other,8
+Page,4,Male,6
+Page,4,Other,4
+Page,5,Female,2
+Page,5,Male,4
+Page,5,Other,5
+Page,6,Male,7
+Page,6,Other,2
+Phillips West,0,Female,25
+Phillips West,0,Male,93
+Phillips West,0,Other,41
+Phillips West,1,Female,44
+Phillips West,1,Male,106
+Phillips West,1,Other,35
+Phillips West,2,Female,31
+Phillips West,2,Male,106
+Phillips West,2,Other,26
+Phillips West,3,Female,42
+Phillips West,3,Male,109
+Phillips West,3,Other,26
+Phillips West,4,Female,41
+Phillips West,4,Male,99
+Phillips West,4,Other,34
+Phillips West,5,Female,39
+Phillips West,5,Male,124
+Phillips West,5,Other,33
+Phillips West,6,Female,34
+Phillips West,6,Male,93
+Phillips West,6,Other,28
+Powderhorn Park,0,Female,44
+Powderhorn Park,0,Male,98
+Powderhorn Park,0,Other,58
+Powderhorn Park,1,Female,49
+Powderhorn Park,1,Male,149
+Powderhorn Park,1,Other,53
+Powderhorn Park,2,Female,60
+Powderhorn Park,2,Male,152
+Powderhorn Park,2,Other,48
+Powderhorn Park,3,Female,60
+Powderhorn Park,3,Male,162
+Powderhorn Park,3,Other,50
+Powderhorn Park,4,Female,69
+Powderhorn Park,4,Male,143
+Powderhorn Park,4,Other,45
+Powderhorn Park,5,Female,60
+Powderhorn Park,5,Male,140
+Powderhorn Park,5,Other,47
+Powderhorn Park,6,Female,35
+Powderhorn Park,6,Male,113
+Powderhorn Park,6,Other,50
+Prospect Park - East River Road,0,Female,14
+Prospect Park - East River Road,0,Male,37
+Prospect Park - East River Road,0,Other,19
+Prospect Park - East River Road,1,Female,12
+Prospect Park - East River Road,1,Male,37
+Prospect Park - East River Road,1,Other,16
+Prospect Park - East River Road,2,Female,18
+Prospect Park - East River Road,2,Male,51
+Prospect Park - East River Road,2,Other,15
+Prospect Park - East River Road,3,Female,15
+Prospect Park - East River Road,3,Male,52
+Prospect Park - East River Road,3,Other,14
+Prospect Park - East River Road,4,Female,14
+Prospect Park - East River Road,4,Male,46
+Prospect Park - East River Road,4,Other,15
+Prospect Park - East River Road,5,Female,25
+Prospect Park - East River Road,5,Male,54
+Prospect Park - East River Road,5,Other,13
+Prospect Park - East River Road,6,Female,20
+Prospect Park - East River Road,6,Male,64
+Prospect Park - East River Road,6,Other,19
+Regina,0,Female,5
+Regina,0,Male,12
+Regina,0,Other,9
+Regina,1,Female,5
+Regina,1,Male,12
+Regina,1,Other,8
+Regina,2,Female,6
+Regina,2,Male,15
+Regina,2,Other,13
+Regina,3,Female,9
+Regina,3,Male,10
+Regina,3,Other,17
+Regina,4,Female,4
+Regina,4,Male,13
+Regina,4,Other,13
+Regina,5,Female,7
+Regina,5,Male,21
+Regina,5,Other,11
+Regina,6,Female,3
+Regina,6,Male,10
+Regina,6,Other,11
+Seward,0,Female,12
+Seward,0,Male,57
+Seward,0,Other,42
+Seward,1,Female,13
+Seward,1,Male,51
+Seward,1,Other,35
+Seward,2,Female,18
+Seward,2,Male,69
+Seward,2,Other,26
+Seward,3,Female,19
+Seward,3,Male,102
+Seward,3,Other,45
+Seward,4,Female,12
+Seward,4,Male,69
+Seward,4,Other,31
+Seward,5,Female,21
+Seward,5,Male,67
+Seward,5,Other,40
+Seward,6,Female,15
+Seward,6,Male,74
+Seward,6,Other,37
+Sheridan,0,Female,19
+Sheridan,0,Male,52
+Sheridan,0,Other,10
+Sheridan,1,Female,22
+Sheridan,1,Male,62
+Sheridan,1,Other,14
+Sheridan,2,Female,19
+Sheridan,2,Male,61
+Sheridan,2,Other,8
+Sheridan,3,Female,26
+Sheridan,3,Male,55
+Sheridan,3,Other,14
+Sheridan,4,Female,28
+Sheridan,4,Male,50
+Sheridan,4,Other,10
+Sheridan,5,Female,26
+Sheridan,5,Male,65
+Sheridan,5,Other,7
+Sheridan,6,Female,19
+Sheridan,6,Male,65
+Sheridan,6,Other,14
+Shingle Creek,0,Female,6
+Shingle Creek,0,Male,11
+Shingle Creek,0,Other,18
+Shingle Creek,1,Female,3
+Shingle Creek,1,Male,14
+Shingle Creek,1,Other,17
+Shingle Creek,2,Female,4
+Shingle Creek,2,Male,12
+Shingle Creek,2,Other,17
+Shingle Creek,3,Female,5
+Shingle Creek,3,Male,15
+Shingle Creek,3,Other,28
+Shingle Creek,4,Female,5
+Shingle Creek,4,Male,20
+Shingle Creek,4,Other,9
+Shingle Creek,5,Female,3
+Shingle Creek,5,Male,17
+Shingle Creek,5,Other,14
+Shingle Creek,6,Female,1
+Shingle Creek,6,Male,17
+Shingle Creek,6,Other,11
+St. Anthony East,0,Female,19
+St. Anthony East,0,Male,37
+St. Anthony East,0,Other,8
+St. Anthony East,1,Female,15
+St. Anthony East,1,Male,29
+St. Anthony East,1,Other,6
+St. Anthony East,2,Female,14
+St. Anthony East,2,Male,43
+St. Anthony East,2,Other,6
+St. Anthony East,3,Female,21
+St. Anthony East,3,Male,42
+St. Anthony East,3,Other,9
+St. Anthony East,4,Female,14
+St. Anthony East,4,Male,41
+St. Anthony East,4,Other,6
+St. Anthony East,5,Female,25
+St. Anthony East,5,Male,51
+St. Anthony East,5,Other,16
+St. Anthony East,6,Female,22
+St. Anthony East,6,Male,40
+St. Anthony East,6,Other,5
+St. Anthony West,0,Female,37
+St. Anthony West,0,Male,71
+St. Anthony West,0,Other,11
+St. Anthony West,1,Female,27
+St. Anthony West,1,Male,94
+St. Anthony West,1,Other,11
+St. Anthony West,2,Female,37
+St. Anthony West,2,Male,84
+St. Anthony West,2,Other,10
+St. Anthony West,3,Female,38
+St. Anthony West,3,Male,79
+St. Anthony West,3,Other,5
+St. Anthony West,4,Female,36
+St. Anthony West,4,Male,97
+St. Anthony West,4,Other,6
+St. Anthony West,5,Female,42
+St. Anthony West,5,Male,77
+St. Anthony West,5,Other,11
+St. Anthony West,6,Female,37
+St. Anthony West,6,Male,85
+St. Anthony West,6,Other,10
+Standish,0,Female,7
+Standish,0,Male,30
+Standish,0,Other,22
+Standish,1,Female,12
+Standish,1,Male,32
+Standish,1,Other,23
+Standish,2,Female,9
+Standish,2,Male,34
+Standish,2,Other,30
+Standish,3,Female,9
+Standish,3,Male,39
+Standish,3,Other,32
+Standish,4,Female,7
+Standish,4,Male,37
+Standish,4,Other,20
+Standish,5,Female,9
+Standish,5,Male,39
+Standish,5,Other,22
+Standish,6,Female,8
+Standish,6,Male,28
+Standish,6,Other,18
+Steven's Square - Loring Heights,0,Female,27
+Steven's Square - Loring Heights,0,Male,114
+Steven's Square - Loring Heights,0,Other,23
+Steven's Square - Loring Heights,1,Female,54
+Steven's Square - Loring Heights,1,Male,133
+Steven's Square - Loring Heights,1,Other,18
+Steven's Square - Loring Heights,2,Female,45
+Steven's Square - Loring Heights,2,Male,146
+Steven's Square - Loring Heights,2,Other,22
+Steven's Square - Loring Heights,3,Female,43
+Steven's Square - Loring Heights,3,Male,145
+Steven's Square - Loring Heights,3,Other,28
+Steven's Square - Loring Heights,4,Female,38
+Steven's Square - Loring Heights,4,Male,131
+Steven's Square - Loring Heights,4,Other,30
+Steven's Square - Loring Heights,5,Female,63
+Steven's Square - Loring Heights,5,Male,172
+Steven's Square - Loring Heights,5,Other,21
+Steven's Square - Loring Heights,6,Female,37
+Steven's Square - Loring Heights,6,Male,115
+Steven's Square - Loring Heights,6,Other,24
+Sumner - Glenwood,0,Female,3
+Sumner - Glenwood,0,Male,12
+Sumner - Glenwood,0,Other,8
+Sumner - Glenwood,1,Female,6
+Sumner - Glenwood,1,Male,17
+Sumner - Glenwood,1,Other,10
+Sumner - Glenwood,2,Female,9
+Sumner - Glenwood,2,Male,20
+Sumner - Glenwood,2,Other,10
+Sumner - Glenwood,3,Female,11
+Sumner - Glenwood,3,Male,22
+Sumner - Glenwood,3,Other,11
+Sumner - Glenwood,4,Female,16
+Sumner - Glenwood,4,Male,33
+Sumner - Glenwood,4,Other,12
+Sumner - Glenwood,5,Female,13
+Sumner - Glenwood,5,Male,38
+Sumner - Glenwood,5,Other,9
+Sumner - Glenwood,6,Female,12
+Sumner - Glenwood,6,Male,27
+Sumner - Glenwood,6,Other,7
+Tangletown,0,Female,13
+Tangletown,0,Male,36
+Tangletown,0,Other,11
+Tangletown,1,Female,52
+Tangletown,1,Male,76
+Tangletown,1,Other,11
+Tangletown,2,Female,63
+Tangletown,2,Male,80
+Tangletown,2,Other,12
+Tangletown,3,Female,65
+Tangletown,3,Male,84
+Tangletown,3,Other,10
+Tangletown,4,Female,52
+Tangletown,4,Male,84
+Tangletown,4,Other,10
+Tangletown,5,Female,55
+Tangletown,5,Male,72
+Tangletown,5,Other,12
+Tangletown,6,Female,18
+Tangletown,6,Male,37
+Tangletown,6,Other,12
+University of Minnesota,0,Female,1
+University of Minnesota,0,Male,16
+University of Minnesota,0,Other,3
+University of Minnesota,1,Female,1
+University of Minnesota,1,Male,11
+University of Minnesota,1,Other,2
+University of Minnesota,2,Female,2
+University of Minnesota,2,Male,6
+University of Minnesota,3,Female,1
+University of Minnesota,3,Male,6
+University of Minnesota,3,Other,1
+University of Minnesota,4,Female,5
+University of Minnesota,4,Male,12
+University of Minnesota,4,Other,2
+University of Minnesota,5,Female,5
+University of Minnesota,5,Male,20
+University of Minnesota,5,Other,2
+University of Minnesota,6,Female,3
+University of Minnesota,6,Male,20
+University of Minnesota,6,Other,3
+Ventura Village,0,Female,32
+Ventura Village,0,Male,99
+Ventura Village,0,Other,40
+Ventura Village,1,Female,49
+Ventura Village,1,Male,130
+Ventura Village,1,Other,44
+Ventura Village,2,Female,57
+Ventura Village,2,Male,177
+Ventura Village,2,Other,60
+Ventura Village,3,Female,58
+Ventura Village,3,Male,187
+Ventura Village,3,Other,58
+Ventura Village,4,Female,58
+Ventura Village,4,Male,174
+Ventura Village,4,Other,51
+Ventura Village,5,Female,60
+Ventura Village,5,Male,160
+Ventura Village,5,Other,49
+Ventura Village,6,Female,37
+Ventura Village,6,Male,138
+Ventura Village,6,Other,52
+Victory,0,Female,6
+Victory,0,Male,36
+Victory,0,Other,32
+Victory,1,Female,9
+Victory,1,Male,51
+Victory,1,Other,36
+Victory,2,Female,34
+Victory,2,Male,95
+Victory,2,Other,38
+Victory,3,Female,20
+Victory,3,Male,71
+Victory,3,Other,33
+Victory,4,Female,16
+Victory,4,Male,47
+Victory,4,Other,26
+Victory,5,Female,36
+Victory,5,Male,77
+Victory,5,Other,31
+Victory,6,Female,21
+Victory,6,Male,51
+Victory,6,Other,36
+Waite Park,0,Female,22
+Waite Park,0,Male,43
+Waite Park,0,Other,17
+Waite Park,1,Female,16
+Waite Park,1,Male,51
+Waite Park,1,Other,14
+Waite Park,2,Female,17
+Waite Park,2,Male,49
+Waite Park,2,Other,21
+Waite Park,3,Female,23
+Waite Park,3,Male,53
+Waite Park,3,Other,23
+Waite Park,4,Female,19
+Waite Park,4,Male,44
+Waite Park,4,Other,28
+Waite Park,5,Female,26
+Waite Park,5,Male,59
+Waite Park,5,Other,10
+Waite Park,6,Female,9
+Waite Park,6,Male,40
+Waite Park,6,Other,23
+Webber - Camden,0,Female,19
+Webber - Camden,0,Male,78
+Webber - Camden,0,Other,45
+Webber - Camden,1,Female,30
+Webber - Camden,1,Male,87
+Webber - Camden,1,Other,41
+Webber - Camden,2,Female,39
+Webber - Camden,2,Male,105
+Webber - Camden,2,Other,51
+Webber - Camden,3,Female,39
+Webber - Camden,3,Male,125
+Webber - Camden,3,Other,36
+Webber - Camden,4,Female,41
+Webber - Camden,4,Male,92
+Webber - Camden,4,Other,46
+Webber - Camden,5,Female,31
+Webber - Camden,5,Male,102
+Webber - Camden,5,Other,40
+Webber - Camden,6,Female,33
+Webber - Camden,6,Male,79
+Webber - Camden,6,Other,35
+Wenonah,0,Male,12
+Wenonah,0,Other,8
+Wenonah,1,Female,10
+Wenonah,1,Male,14
+Wenonah,1,Other,6
+Wenonah,2,Female,3
+Wenonah,2,Male,14
+Wenonah,2,Other,10
+Wenonah,3,Female,6
+Wenonah,3,Male,15
+Wenonah,3,Other,11
+Wenonah,4,Female,7
+Wenonah,4,Male,24
+Wenonah,4,Other,17
+Wenonah,5,Female,4
+Wenonah,5,Male,19
+Wenonah,5,Other,10
+Wenonah,6,Female,6
+Wenonah,6,Male,16
+Wenonah,6,Other,11
+West Calhoun,0,Female,2
+West Calhoun,0,Male,7
+West Calhoun,0,Other,6
+West Calhoun,1,Female,5
+West Calhoun,1,Male,8
+West Calhoun,1,Other,3
+West Calhoun,2,Female,2
+West Calhoun,2,Male,4
+West Calhoun,2,Other,4
+West Calhoun,3,Female,8
+West Calhoun,3,Male,8
+West Calhoun,3,Other,2
+West Calhoun,4,Female,9
+West Calhoun,4,Male,10
+West Calhoun,4,Other,6
+West Calhoun,5,Female,5
+West Calhoun,5,Male,6
+West Calhoun,5,Other,1
+West Calhoun,6,Female,1
+West Calhoun,6,Male,11
+West Calhoun,6,Other,6
+Whittier,0,Female,86
+Whittier,0,Male,286
+Whittier,0,Other,60
+Whittier,1,Female,139
+Whittier,1,Male,490
+Whittier,1,Other,103
+Whittier,2,Female,167
+Whittier,2,Male,542
+Whittier,2,Other,106
+Whittier,3,Female,170
+Whittier,3,Male,560
+Whittier,3,Other,79
+Whittier,4,Female,184
+Whittier,4,Male,455
+Whittier,4,Other,98
+Whittier,5,Female,194
+Whittier,5,Male,544
+Whittier,5,Other,117
+Whittier,6,Female,162
+Whittier,6,Male,464
+Whittier,6,Other,109
+Willard - Hay,0,Female,34
+Willard - Hay,0,Male,97
+Willard - Hay,0,Other,38
+Willard - Hay,1,Female,57
+Willard - Hay,1,Male,180
+Willard - Hay,1,Other,72
+Willard - Hay,2,Female,87
+Willard - Hay,2,Male,245
+Willard - Hay,2,Other,55
+Willard - Hay,3,Female,84
+Willard - Hay,3,Male,241
+Willard - Hay,3,Other,69
+Willard - Hay,4,Female,80
+Willard - Hay,4,Male,222
+Willard - Hay,4,Other,59
+Willard - Hay,5,Female,70
+Willard - Hay,5,Male,216
+Willard - Hay,5,Other,67
+Willard - Hay,6,Female,45
+Willard - Hay,6,Male,148
+Willard - Hay,6,Other,58
+Windom,0,Female,26
+Windom,0,Male,47
+Windom,0,Other,27
+Windom,1,Female,37
+Windom,1,Male,77
+Windom,1,Other,23
+Windom,2,Female,46
+Windom,2,Male,81
+Windom,2,Other,27
+Windom,3,Female,29
+Windom,3,Male,58
+Windom,3,Other,28
+Windom,4,Female,28
+Windom,4,Male,73
+Windom,4,Other,23
+Windom,5,Female,30
+Windom,5,Male,71
+Windom,5,Other,33
+Windom,6,Female,32
+Windom,6,Male,62
+Windom,6,Other,30
+Windom Park,0,Female,32
+Windom Park,0,Male,78
+Windom Park,0,Other,14
+Windom Park,1,Female,26
+Windom Park,1,Male,88
+Windom Park,1,Other,16
+Windom Park,2,Female,39
+Windom Park,2,Male,74
+Windom Park,2,Other,19
+Windom Park,3,Female,41
+Windom Park,3,Male,85
+Windom Park,3,Other,18
+Windom Park,4,Female,48
+Windom Park,4,Male,118
+Windom Park,4,Other,8
+Windom Park,5,Female,59
+Windom Park,5,Male,118
+Windom Park,5,Other,12
+Windom Park,6,Female,38
+Windom Park,6,Male,91
+Windom Park,6,Other,12
