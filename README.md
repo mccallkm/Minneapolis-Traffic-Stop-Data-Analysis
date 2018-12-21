@@ -26,6 +26,7 @@ Data Elements:
 16) y
 17) policePrecinct 
 18) neighborhood
+
 19)lastUpdateDate 
 
 Objectives
