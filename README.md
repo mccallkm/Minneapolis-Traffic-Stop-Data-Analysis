@@ -1,4 +1,6 @@
 # Team_Bostock
+[MNSpoonCherry.png](static/data/MNSpoonCherry.png)
+
 
 Goal:
 This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood.
@@ -8,13 +10,6 @@ Data Source: http://opendata.minneapolismn.gov/datasets/police-stop-data
 Neighborhoods: [Neighborhoods.geojson](static/data/Neighborhoods.geojson)
 
 Data Elements:
-
-1. OBJECTID	6. callDisposition	11. race	16. y
-2. masterIncidentNumber	7. citationIssued	12. gender	17. policePrecinct
-3. responseDate	8. personSearch	13. lat	18. neighborhood
-4. reason	9. vehicleSearch	14. long	19. lastUpdateDate
-5. problem	10. preRace	15. x	
-
 1) OBJECTID 
 2) masterIncidentNumber 
 3) responseDate 
