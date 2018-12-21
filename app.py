@@ -62,7 +62,7 @@ class stopData(db.Model):
 @app.route("/")
 def index():
     
-    return render_template("dowBar.html")
+    return render_template("index.html")
 
 
 @app.route("/neighborhood")
