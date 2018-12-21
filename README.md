@@ -26,14 +26,14 @@ Data Elements:
 16) y
 17) policePrecinct 
 18) neighborhood
-19)lastUpdateDate 
+19) lastUpdateDate 
 
 Objectives
 1) Categorize by problem to highlight key occurrences in specific neighborhoods.
 2) Identify how gender impacts whether a citation is received.
 3) Pinpoint what neighborhoods have the highest number of pull overs.
 4) Determine if citations increased towards the end of the month.
-5) Determine if citations vary by the day of the week
+5) Determine if citations vary by the day of the week.
 
 
 
