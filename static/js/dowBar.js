@@ -19,9 +19,10 @@ function initTrace( name){
 // 'choice' = neighborhood selected 
 // 'graphId' id for location in the html
 function buildChart (choice, graphId) {
-  d3.csv("../static/data/clean_dow_data.csv").then(function (response){
+  d3.json("/dow").then(function (response){
   
   console.log(response);
+  console.log("choice",choice);
 
     //initialize traces for bar graphs
     var male = initTrace('Male');
@@ -33,7 +34,6 @@ function buildChart (choice, graphId) {
       // convert string to number
       d.responseDow= +d.responseDow;
       d.genderCount= +d.genderCount;
-
   
       if (d.neighborhood === choice ) {
         if (d.gender === "Female"){
@@ -51,6 +51,7 @@ function buildChart (choice, graphId) {
   var layout = {barmode: 'stack',title:choice};    
   Plotly.newPlot(graphId, data, layout);
   });
+
 }
 
 //****************************************************** */
@@ -61,9 +62,8 @@ function initPage(){
   var selector2 = d3.select("#selDataset2");
   //console.log("init");
   // Use the list of sample names to populate the select options
-  d3.csv("../static/data/neighborhood_data.csv").then((response) => {
+  d3.json("/neighborhood").then((response) => {
     response.forEach((entry) => {
-  console.log(entry.neighborhood);
       selector1
         .append("option")
         .text(entry.neighborhood)
@@ -95,6 +95,8 @@ function selectChanged (newNeighborhood,graph){
   } else if (graph === '2'){
     buildChart(newNeighborhood,'bar2')
   }
+
+
 }
 
 initPage();
