@@ -1,5 +1,5 @@
-# Team_Bostock
-![alt text](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/images/MNSpoonCherry.jpg)
+# Team_Bostock: Minneapolis Traffic Stop Data Analysis
+![alt text](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/images/MplsSL.jpg)
 Goal:
 This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood.
 
