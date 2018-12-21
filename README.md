@@ -26,8 +26,7 @@ Data Elements:
 16) y
 17) policePrecinct 
 18) neighborhood
-
-19)lastUpdateDate 
+19) lastUpdateDate 
 
 Objectives
 1) Categorize by problem to highlight key occurrences in specific neighborhoods.
