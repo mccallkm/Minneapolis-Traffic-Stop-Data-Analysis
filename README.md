@@ -1,5 +1,5 @@
 # Team_Bostock
-[MNSpoonCherry.png](static/images/MNSpoonCherry.png)
+[MNSpoonCherry.png](images/MNSpoonCherry.png)
 
 Goal:
 This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood.
