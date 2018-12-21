@@ -1,6 +1,5 @@
 # Team_Bostock
 ![alt text](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/images/MNSpoonCherry.jpg)
-
 Goal:
 This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood.
 
@@ -29,7 +28,7 @@ Data Elements:
 18) neighborhood
 19) lastUpdateDate 
 
-Objectives
+Objectives:
 1) Categorize by problem to highlight key occurrences in specific neighborhoods.
 2) Identify how gender impacts whether a citation is received.
 3) Pinpoint what neighborhoods have the highest number of pull overs.
