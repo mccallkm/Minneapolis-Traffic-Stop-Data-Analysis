@@ -5,12 +5,12 @@ $(document).ready(function () {
         datatype: "tab",
         datafields: [
             { name: 'responseYear' },
-            { name: 'HPI' },
-            { name: 'BuildCost' },
-            { name: 'Population' },
-            { name: 'Rate' }
+            { name: '' },
+            { name: '' },
+            { name: '' },
+            { name: '' }
         ],
-        url: '../sampledata/homeprices.txt'
+        url: '../'
     };
 
     var dataAdapter = new $.jqx.dataAdapter(source, { async: false, autoBind: true, loadError: function (xhr, status, error) { alert('Error loading "' + source.url + '" : ' + error); } });
@@ -49,8 +49,8 @@ $(document).ready(function () {
                         }
                     },
                     series: [
-                            { dataField: 'HPI', displayText: 'Real Home Price Index', opacity: 0.7 },
-                            { dataField: 'BuildCost', displayText: 'Building Cost Index', opacity: 0.9 }
+                            { dataField:  opacity: 0.7 },
+                            { dataField: , opacity: 0.9 }
                         ]
                 },
                 {
@@ -73,7 +73,7 @@ $(document).ready(function () {
                         }
                     },
                     series: [
-                            { dataField: 'Rate', displayText: 'Interest Rate', opacity: 1.0, lineWidth: 4, dashStyle: '4,4' }
+                            { dataField: opacity: 1.0, lineWidth: 4, dashStyle: '4,4' }
                         ]
                 }
             ]
