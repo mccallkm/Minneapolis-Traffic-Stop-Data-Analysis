@@ -4,14 +4,11 @@ from flask import (
     Flask,
     render_template,
     jsonify,
-    request,
-    url_for)
-
+    request)
 
 from flask_sqlalchemy import SQLAlchemy
 
-
-app = Flask(__name__,static_url_path= "/static", static_folder = "static")
+app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///stops.sqlite"
 
@@ -21,7 +18,7 @@ db = SQLAlchemy(app)
 class dowData(db.Model):
     __tablename__ = 'dowData'
     neighborhood = db.Column((String), primary_key=True)
-    gender = db.Column(String)
+    gender =db.Column(String)
     responseDow = db.Column(Integer)
     genderCount = db.Column(Integer)
     def __repr__(self):
@@ -31,52 +28,39 @@ class dowData(db.Model):
 # Define our neighborhoodData table
 class neighborhoodData(db.Model):
     __tablename__ = 'neighborhoodData'
-    id = db.Column(Integer, primary_key=True)
-    neighborhood = db.Column(String)
+    id = Column(Integer, primary_key=True)
+    neighborhood = Column(String)
     def __repr__(self):
         return '<neighborhoodData %r>' % (self.neighborhood)
 
      # Define dowData table
 class stopData(db.Model):
     __tablename__ = 'stopData'
-    OBJECTID = db.Column(Integer, primary_key=True)
+    OBJECTID = Column(Integer, primary_key=True)
     neighborhood = db.Column(String)
-    responseDate = db.Column(String)
-    citationIssued = db.Column(String)
-    lat= db.Column(Integer)
-    lon= db.Column(Integer)
-    gender = db.Column(String)
-    responseDow = db.Column(Integer)
-    responseDay = db.Column(Integer)
-    responseMonth = db.Column(Integer)
-    responseMonthName = db.Column(String)
-    responseYear = db.Column(Integer)
+    responseDate = Column(String)
+    citationIssued = Column(String)
+    lat= Column(Integer)
+    lon= Column(Integer)
+    gender =Column(String)
+    responseDow = Column(Integer)
+    responseDay =Column(Integer)
+    responseMonth = Column(Integer)
+    responseMonthName =Column(String)
+    responseYear = Column(Integer)
     def __repr__(self):
         return '<stopData %r>' % (self.OBJECTID)
 
-    # Define citationData table
-class citationData(db.Model):
-    __tablename__ = 'citationData'
-    neighborhood = db.Column(String, primary_key=True)
-    citationIssued = db.Column(String)
-    responseDay = db.Column(Integer)
-    responseMonth = db.Column(Integer)
-    responseMonthName = db.Column(String)
-    responseYear = db.Column(Integer)
-    citationCount = db.Column(Integer)
-    def __repr__(self):
-        return '<citationData %r>' % (self.neighborhood)
+
+
+    
+
 
 ##################################################
 # Flask Routes
 
 @app.route("/")
 def index():
-    
-    return render_template("index.html")
-
-@app.route("/dowBar")
-def dowbar():
     
     return render_template("dowBar.html")
 
@@ -144,29 +128,6 @@ def copStop():
         })
     return jsonify(stopList)
 
-@app.route("/citation")
-def citationGiven():
-    results = db.session.query(citationData.neighborhood,
-                                citationData.citationIssued,
-                                citationData.responseDay,
-                                citationData.responseMonth,
-                                citationData.responseMonthName,
-                                citationData.responseYear,
-                                citationData.citationCount
-                                ).all()
-    
-    citationList = []
-    for result in results:
-        citationList.append({
-            "neighborhood": result[0],
-            "citationIssued":result[1],
-            "responseDay":result[2],
-            "responseMonth":result[3],
-            "responseMonthName":result[4],
-            "responseYear":result[5],
-            "citationCount":result[6]
-        })
-    return jsonify(citationList)
 
 if __name__ == "__main__":
     app.run()
