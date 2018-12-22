@@ -9,34 +9,17 @@ Data Source: http://opendata.minneapolismn.gov/datasets/police-stop-data
 
 Neighborhoods: [Neighborhoods.geojson](static/data/Neighborhoods.geojson)
 
-Data Elements:
-|--------------------|--------------------|-------------------|
-|OBJECTID   
-|masterIncidentNumber 
-|responseDate 
-|reason 
-|problem 
-|callDisposition
-|citationIssued 
-8) personSearch 
-9) vehicleSearch 
-10) preRace 
-11) race 
-12) gender
-13) lat 
-14) long 
-15) x 
-16) y
-17) policePrecinct 
-18) neighborhood
-19) lastUpdateDate 
+Data Elements:OBJECTID |masterIncidentNumber |responseDate |reason |problem |callDisposition|citationIssued 
+|personSearch |vehicleSearch |preRace |race |gender|lat |long |x |y|policePrecinct |neighborhood|lastUpdateDate 
+
+Metadata: https://www.arcgis.com/home/item.html?id=215b4b543d894750aef86c725b56ee2a
 
 Objectives:
-1) Categorize by problem to highlight key occurrences in specific neighborhoods.
-2) Identify how gender impacts whether a citation is received.
-3) Pinpoint what neighborhoods have the highest number of pull overs.
-4) Determine if citations increased towards the end of the month.
-5) Determine if citations vary by the day of the week.
+Categorize by problem to highlight key occurrences in specific neighborhoods.
+Identify how gender impacts whether a citation is received.
+Pinpoint what neighborhoods have the highest number of pull overs.
+Determine if citations increased towards the end of the month.
+Determine if citations vary by the day of the week.
 
 
 
