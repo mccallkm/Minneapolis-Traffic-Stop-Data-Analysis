@@ -10,13 +10,14 @@ Data Source: http://opendata.minneapolismn.gov/datasets/police-stop-data
 Neighborhoods: [Neighborhoods.geojson](static/data/Neighborhoods.geojson)
 
 Data Elements:
-1) OBJECTID 
-2) masterIncidentNumber 
-3) responseDate 
-4) reason 
-5) problem 
-6) callDisposition
-7) citationIssued 
+|--------------------|--------------------|-------------------|
+|OBJECTID   
+|masterIncidentNumber 
+|responseDate 
+|reason 
+|problem 
+|callDisposition
+|citationIssued 
 8) personSearch 
 9) vehicleSearch 
 10) preRace 
