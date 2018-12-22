@@ -63,13 +63,15 @@ class citationData(db.Model):
     responseMonth = db.Column(Integer)
     responseMonthName = db.Column(String)
     responseYear = db.Column(Integer)
-    citationCount = db.Column(Integer)
+    citationCnt = db.Column(Integer)
     def __repr__(self):
         return '<citationData %r>' % (self.neighborhood)
 
 ##################################################
 # Flask Routes
 
+##############################
+## endpoints for html
 @app.route("/")
 def index():
     
@@ -80,6 +82,23 @@ def dowbar():
     
     return render_template("dowBar.html")
 
+@app.route("/map")
+def heatmap():
+    
+    return render_template("heatmap.html")
+
+@app.route("/line")
+def line():
+    
+    return render_template("line.html")
+
+@app.route("/pie")
+def pie():
+    
+    return render_template("piechart.html")
+
+#################################
+## endpoints for data
 
 @app.route("/neighborhood")
 def neighbor():
@@ -152,7 +171,7 @@ def citationGiven():
                                 citationData.responseMonth,
                                 citationData.responseMonthName,
                                 citationData.responseYear,
-                                citationData.citationCount
+                                citationData.citationCnt
                                 ).all()
     
     citationList = []
@@ -164,7 +183,7 @@ def citationGiven():
             "responseMonth":result[3],
             "responseMonthName":result[4],
             "responseYear":result[5],
-            "citationCount":result[6]
+            "citationCnt":result[6]
         })
     return jsonify(citationList)
 
