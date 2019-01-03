@@ -79,7 +79,7 @@ function initPage(){
 
     var choice=response[0].neighborhood;
     buildChart(choice,'bar1');
-    choice=response[1].neighborhood;
+    choice=response[0].neighborhood;
     buildChart(choice,'bar2'); 
   })
 

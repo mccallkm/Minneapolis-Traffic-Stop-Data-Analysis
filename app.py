@@ -99,7 +99,7 @@ def pie():
 
 #################################
 ## endpoints for data
-
+#returns json of neighborhoods
 @app.route("/neighborhood")
 def neighbor():
     results = db.session.query(neighborhoodData.neighborhood).all()
@@ -111,6 +111,7 @@ def neighbor():
         })
     return jsonify(neighborList)
 
+# returns json list of objects containing neighborhood, gender, responseDOW and genderCount
 @app.route("/dow")
 def dayOfWeek():
     results = db.session.query(dowData.neighborhood,
