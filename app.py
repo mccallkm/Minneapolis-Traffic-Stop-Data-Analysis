@@ -89,6 +89,11 @@ def heatmap():
     
     return render_template("heatmap.html")
 
+@app.route("/neighborhoodmap")
+def map():
+    
+    return render_template("map.html")
+
 @app.route("/line")
 def line():
     

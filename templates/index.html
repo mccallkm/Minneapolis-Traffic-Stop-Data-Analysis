@@ -24,7 +24,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Minneapolis Police Stop Analysis</a>
+                <a class="navbar-brand" href="/">Minneapolis Police Stop Analysis</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -38,14 +38,51 @@
                             <li><a href="xxxx.html">Pie Charts</a></li></li>
                         </ul>
                     </li>
+                    <li>
+                            <a href="/neighborhoodmap">Neighborhood Map</a>
+                        </li>
+                        <li>
+                            <a href="/map">Heat Map</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div id="map"></div>
+    <div class="container">
+            <div class="row row-grid">
+                <div class="col-md-12">
+                    <div class="graph graph-left>
+                        <section id="intro">
+                            <h1>Summary</h1>
+                            <hr>
+                            <section id="text">
+                                <img id="summary-image" src="/static/images/MplsSL.jpg" alt="Minneapolis-Image">
+                                
+                                <p>Goal: This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood. </p>
+    
+                                <p>Data Source: http://opendata.minneapolismn.gov/datasets/police-stop-data</p>
+
+                                <p>Neighborhoods: Neighborhoods.geojson</p>
+
+                                <p>Data Elements: OBJECTID |masterIncidentNumber |responseDate |reason |problem |callDisposition |citationIssued |personSearch |vehicleSearch |preRace |race |gender |lat |long |x |y |policePrecinct |neighborhood |lastUpdateDate</p>
+
+                                <p>Metadata: https://www.arcgis.com/home/item.html?id=215b4b543d894750aef86c725b56ee2a</p>
+
+                                <p>Objectives:
+
+                                        <li>1. Categorize by problem to highlight key occurrences in specific neighborhoods.</li>
+                                        <li> 2. Identify how gender impacts whether a citation is received.</li>
+                                        <li>3. Pinpoint what neighborhoods have the highest number of pull overs.</li>
+                                        <li>4. Determine if citations increased towards the end of the month.</li>
+                                        <li>5. Determine if citations vary by the day of the week.</p>
+                            </section>
+                        </section>
+            </div>
+    </div>
+    <!-- <div id="map"></div>
     <script type="text/javascript" src="../static/js/config.js"></script>
     <script type="text/javascript" src="../static/js/neighborhoodmap.js"></script>
-    <script type="text/javascript" src="../static/js/raphael.js"></script>
+    <script type="text/javascript" src="../static/js/raphael.js"></script> -->
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
