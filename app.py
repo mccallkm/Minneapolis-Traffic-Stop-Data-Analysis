@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Float
 # import necessary libraries
 from flask import (
     Flask,
@@ -33,6 +33,8 @@ class neighborhoodData(db.Model):
     __tablename__ = 'neighborhoodData'
     id = db.Column(Integer, primary_key=True)
     neighborhood = db.Column(String)
+    totalPop = db.Column(Integer)
+    margin = db.Column(Integer)
     def __repr__(self):
         return '<neighborhoodData %r>' % (self.neighborhood)
 
@@ -43,8 +45,8 @@ class stopData(db.Model):
     neighborhood = db.Column(String)
     responseDate = db.Column(String)
     citationIssued = db.Column(String)
-    lat= db.Column(Integer)
-    lon= db.Column(Integer)
+    lat= db.Column(Float)
+    lon= db.Column(Float)
     gender = db.Column(String)
     responseDow = db.Column(Integer)
     responseDay = db.Column(Integer)
