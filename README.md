@@ -15,7 +15,7 @@ OBJECTID |masterIncidentNumber |responseDate |reason |problem |callDisposition |
 
 Metadata:[Police_Stop_Data] https://www.arcgis.com/home/item.html?id=215b4b543d894750aef86c725b56ee2a
 
-NEIGHBORHOODS
+NEIGHBORHOOD BORDERS
 
 Source:[Neighborhoods.geojson] http://opendata.minneapolismn.gov/datasets/7f88316841ce471faa33c89035fb69e8_0?geometry=-93.728%2C44.886%2C-92.685%2C45.056 
 
