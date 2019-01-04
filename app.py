@@ -109,12 +109,14 @@ def pie():
 #returns json of neighborhoods
 @app.route("/neighborhood")
 def neighbor():
-    results = db.session.query(neighborhoodData.neighborhood).all()
+    results = db.session.query(neighborhoodData.neighborhood,neighborhoodData.totalPop,neighborhoodData.margin).all()
 
     neighborList = []
     for result in results:
         neighborList.append({
             "neighborhood": result[0],
+            "totalPop":result[1],
+            "margin":result[2]
         })
     return jsonify(neighborList)
 
