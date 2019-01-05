@@ -109,12 +109,14 @@ def pie():
 #returns json of neighborhoods
 @app.route("/neighborhood")
 def neighbor():
-    results = db.session.query(neighborhoodData.neighborhood).all()
+    results = db.session.query(neighborhoodData.neighborhood,neighborhoodData.totalPop,neighborhoodData.margin).all()
 
     neighborList = []
     for result in results:
         neighborList.append({
             "neighborhood": result[0],
+            "totalPop":result[1],
+            "margin":result[2]
         })
     return jsonify(neighborList)
 
@@ -173,7 +175,8 @@ def copStop():
 
 @app.route("/citation")
 def citationGiven():
-    results = db.session.query(citationData.neighborhood,
+    results = db.session.query(citationData.responseDate,
+                                citationData.neighborhood,
                                 citationData.citationIssued,
                                 citationData.responseDay,
                                 citationData.responseMonth,
@@ -185,13 +188,14 @@ def citationGiven():
     citationList = []
     for result in results:
         citationList.append({
-            "neighborhood": result[0],
-            "citationIssued":result[1],
-            "responseDay":result[2],
-            "responseMonth":result[3],
-            "responseMonthName":result[4],
-            "responseYear":result[5],
-            "citationCnt":result[6]
+            "responseDate": result[0],
+            "neighborhood": result[1],
+            "citationIssued":result[2],
+            "responseDay":result[3],
+            "responseMonth":result[4],
+            "responseMonthName":result[5],
+            "responseYear":result[6],
+            "citationCnt":result[7]
         })
     return jsonify(citationList)
 
