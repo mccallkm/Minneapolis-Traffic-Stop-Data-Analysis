@@ -1,5 +1,5 @@
 // Define SVG area dimensions
-var svgWidth = 960;
+var svgWidth = 1000;
 var svgHeight = 500;
 
 // Define the chart's margins as an object
@@ -39,7 +39,6 @@ d3.json("/citation", function(error, cntData) {
     cntData.forEach(function(data) {
 
         data.date = parseTime(data.responseDate);
-        // data.date = +data.responseYear;
         data.cnt = +data.citationCnt;
     });
 
