@@ -11,6 +11,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
     <style>
         body {
             background-color: slategray;
@@ -19,13 +21,48 @@
 </head>
 
 <body>
-
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Minneapolis Police Stop Analysis</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/dowBar">Stacked Bar Graph</a></li>
+                            <li><a href="/line">Line Graph</a></li>
+                            <li><a href="xxxx.html">Pie Charts</a></li>
+                    </li>
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="/neighborhoodmap">Neighborhood Map</a>
+                    </li>
+                    <li>
+                        <a href="/map">Heat Map</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <h1>Citations by Year</h1>
         <p></p>
         <p></p>
+        <div class="line">
+        </div>
     </div>
-    <nav class="navbar navbar-default">
+    <!-- <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#"></a>
@@ -37,13 +74,12 @@
                 <li><a href="#">2018</a></li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
 
     <div class="container">
         <!-- <h3>Basic Navbar Example</h3> -->
         <p></p>
     </div>
-
     <!--Source for line chart-->
     <script src="../static/js/line.js"></script>
 </body>
