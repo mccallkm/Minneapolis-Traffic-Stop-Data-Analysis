@@ -1,20 +1,20 @@
 // Define SVG area dimensions
-var svgWidth = 1000;
+var svgWidth = 960;
 var svgHeight = 500;
 
 // Define the chart's margins as an object
 var margin = {
     top: 60,
-    right: 30,
-    bottom: 150,
-    left: 100
+    right: 60,
+    bottom: 60,
+    left: 60
 };
 // Define dimensions of the chart area
 var chartWidth = svgWidth - margin.left - margin.right;
 var chartHeight = svgHeight - margin.top - margin.bottom;
 
 // Select div, append SVG area to it, and set its dimensions
-var svg = d3.select("#line")
+var svg = d3.select("line")
     .append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
@@ -44,42 +44,42 @@ d3.json("/citation", function(error, cntData) {
 
     // Configure a time scale
     // d3.extent returns the an array containing the min and max values for the property specified
-    
+
     var xTimeScale = d3.scaleTime()
         .domain(d3.extent(cntData, data => data.date))
         .range([0, chartWidth]);
-    
+
     // Configure a linear scale with a range between the chartHeight and 0
     var yLinearScale = d3.scaleLinear()
         .domain([0, d3.max(cntData, data => data.cnt)])
         .range([chartHeight, 0]);
-    
+
     // Create two new functions passing the scales in as arguments
     // These will be used to create the chart's axes
     var bottomAxis = d3.axisBottom(xTimeScale);
     var leftAxis = d3.axisLeft(yLinearScale);
-    
+
     // Configure a line function which will plot the x and y coordinates using our scales
     var drawLine = d3.line()
         .x(data => xTimeScale(data.date))
         .y(data => yLinearScale(data.cnt));
-    
+
     // Append an SVG path and plot its points using the line function
     chartGroup.append("path")
-    
-        // The drawLine function returns the instructions for creating the line
-        .attr("d", drawLine(cntData))
+
+    // The drawLine function returns the instructions for creating the line
+    .attr("d", drawLine(cntData))
         .classed("line", true);
-    
+
     // Append an SVG group element to the chartGroup, create the left axis inside of it
     chartGroup.append("g")
         .classed("axis", true)
         .call(leftAxis);
-    
+
     // Append an SVG group element to the chartGroup, create the bottom axis inside of it
     // Translate the bottom axis to the bottom of the page
     chartGroup.append("g")
         .classed("axis", true)
-        .attr("transform", `translate(0, ${chartHeight})`)
+        .attr("transform", "translate(0, " + chartHeight + ")")
         .call(bottomAxis);
 });
