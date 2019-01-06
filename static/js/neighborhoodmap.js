@@ -1,6 +1,7 @@
 var mymap = L.map('map', {
-  center: [44.966072, -93.263902], 
+  center: [44.975998, -93.264554], 
   zoom: 11.5,
+  zoomControl: false
 });
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -8,6 +9,10 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   maxZoom: 18,
   id: 'mapbox.light',
   accessToken: API_KEY
+}).addTo(mymap);
+
+L.control.zoom({
+  position: 'bottomleft'
 }).addTo(mymap);
 
 var link = "https://opendata.arcgis.com/datasets/7f88316841ce471faa33c89035fb69e8_0.geojson";
