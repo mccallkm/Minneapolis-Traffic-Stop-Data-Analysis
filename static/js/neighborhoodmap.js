@@ -64,17 +64,90 @@ style: function(feature) {
 
 
 
-var url = "https://opendata.arcgis.com/datasets/215b4b543d894750aef86c725b56ee2a_0.geojson";
+// var url = "https://opendata.arcgis.com/datasets/215b4b543d894750aef86c725b56ee2a_0.geojson";
 
 
-d3.json(url, function(data) {
-  createFeatures(data.features);
-});
-function createFeatures(earthquakeData) {
+
+function createFeatures(trafficStops) {
   var markers = L.markerClusterGroup();
-    for (var i =0; i < earthquakeData.length; i++) {
-      markers.addLayer(L.marker([earthquakeData[i].geometry.coordinates[1], earthquakeData[i].geometry.coordinates[0]]));
-        
+    for (var i =0; i < trafficStops.length; i++) {
+      markers.addLayer(L.marker([trafficStops[i].lat, trafficStops[i].lon]));        
 }
   mymap.addLayer(markers);
 };
+d3.json("/stop", createFeatures);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var mymap = L.map('map', {
+//   center: [44.975998, -93.264554], 
+//   zoom: 11.5,
+//   zoomControl: false
+// });
+
+// L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+//   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+//   maxZoom: 18,
+//   id: 'mapbox.light',
+//   accessToken: API_KEY
+// }).addTo(mymap);
+
+// L.control.zoom({
+//   position: 'bottomleft'
+// }).addTo(mymap);
+
+// var link = "https://opendata.arcgis.com/datasets/7f88316841ce471faa33c89035fb69e8_0.geojson";
+
+  
+// d3.json(link, function(data) {
+// // Creating a geoJSON layer with the retrieved data
+// L.geoJson(data, {
+// style: function(feature) {
+//   return {
+//     color: "black",
+//     fillColor: "#ADD8E6",
+//     fillOpacity: 0.5,
+//     weight: 1.5
+//   };
+// },
+//   onEachFeature: function(feature, layer) {
+//     layer.bindPopup("<h3>" + feature.properties.BDNAME + "</h3>");
+//   }
+
+
+
+// }).addTo(mymap);
+// });
+
+
+// var url = "https://opendata.arcgis.com/datasets/215b4b543d894750aef86c725b56ee2a_0.geojson";
+
+
+// d3.json(url, function(data) {
+//   createFeatures(data.features);
+// });
+// function createFeatures(earthquakeData) {
+//   var markers = L.markerClusterGroup();
+//     for (var i =0; i < earthquakeData.length; i++) {
+//       markers.addLayer(L.marker([earthquakeData[i].geometry.coordinates[1], earthquakeData[i].geometry.coordinates[0]]));
+        
+// }
+//   mymap.addLayer(markers);
+// };
