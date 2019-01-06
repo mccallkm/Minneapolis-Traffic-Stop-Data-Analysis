@@ -25,12 +25,13 @@ var chartGroup = svg.append("g")
 
 // Configure a parseTime function which will return a new Date object from a string
 var parseTime = d3.timeParse("%Y");
+var data = [];
 
 // Load data
 d3.json("/citation", function(error, cntData) {
 
     // Throw an error if one occurs
-    if (error) return console.warn(error);
+    if (error) throw error;
 
     // Print the citation counts
     console.log(cntData);
@@ -38,7 +39,8 @@ d3.json("/citation", function(error, cntData) {
     // Format the date and cast the cnt value to a number
     cntData.forEach(function(data) {
 
-        data.date = parseTime(data.responseDate);
+        // data.date = parseTime(data.responseDate);
+        data.date = +data.responseDay;
         data.cnt = +data.citationCnt;
     });
 
@@ -46,12 +48,12 @@ d3.json("/citation", function(error, cntData) {
     // d3.extent returns the an array containing the min and max values for the property specified
 
     var xTimeScale = d3.scaleTime()
-        .domain(d3.extent(cntData, data => data.date))
+        .domain(d3.extent(cntData, data => data.responseDay))
         .range([0, chartWidth]);
 
     // Configure a linear scale with a range between the chartHeight and 0
     var yLinearScale = d3.scaleLinear()
-        .domain([0, d3.max(cntData, data => data.cnt)])
+        .domain([0, d3.max(cntData, data => data.citationCnt)])
         .range([chartHeight, 0]);
 
     // Create two new functions passing the scales in as arguments
