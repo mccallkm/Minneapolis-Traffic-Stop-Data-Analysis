@@ -59,6 +59,7 @@ class stopData(db.Model):
     # Define citationData table
 class citationData(db.Model):
     __tablename__ = 'citationData'
+    responseDate =db.Column(String)
     neighborhood = db.Column(String, primary_key=True)
     citationIssued = db.Column(String)
     responseDay = db.Column(Integer)
