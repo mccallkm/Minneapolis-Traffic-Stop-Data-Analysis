@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="../static/css/d3Style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
-    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
-    <style>
+    <script src="https://d3js.org/d3-time.v1.min.js"></script>
+    <script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <!-- <style>
         body {
             background-color: slategray;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -39,6 +40,7 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a href="http://127.0.0.1:5000/">Home</a></li>
                             <li><a href="/dowBar">Stacked Bar Graph</a></li>
                             <li><a href="/line">Line Graph</a></li>
                             <li><a href="xxxx.html">Pie Charts</a></li>
@@ -56,7 +58,7 @@
         </div>
     </nav>
     <div class="container">
-        <h1>Citations by Year</h1>
+        <h1>Citation Count by Neigborhood</h1>
         <p></p>
         <p></p>
         <div class="line">
@@ -81,7 +83,7 @@
     <!-- <p></p> -->
     <!-- </div> -->
     <!--Source for line chart-->
-    <script src="../static/js/line.js"></script>
+    <script src="/static/js/line.js"></script>
 </body>
 
 </html>
