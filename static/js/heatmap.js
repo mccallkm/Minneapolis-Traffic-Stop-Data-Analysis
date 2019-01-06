@@ -1,6 +1,7 @@
 var mymap = L.map('heatmap', {
   center: [44.9778, -93.2650], 
-  zoom: 11.5
+  zoom: 11.5,
+  zoomControl: false
 });
 
 
@@ -13,6 +14,9 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: API_KEY
 }).addTo(mymap);
 
+L.control.zoom({
+  position: 'bottomleft'
+}).addTo(mymap);
 
 d3.json(link, function(data) {
   coords = data.features.map(feat => feat.geometry.coordinates.slice().reverse())
