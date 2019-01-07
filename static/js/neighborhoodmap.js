@@ -67,7 +67,6 @@ style: function(feature) {
 // var url = "https://opendata.arcgis.com/datasets/215b4b543d894750aef86c725b56ee2a_0.geojson";
 
 
-
 function createFeatures(trafficStops) {
   var markers = L.markerClusterGroup();
     for (var i =0; i < trafficStops.length; i++) {
