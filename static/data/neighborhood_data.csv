@@ -1,88 +1,88 @@
-neighborhood,totalPop,margin
-Armatage,4915.0,262.0
-Audubon Park,5007.0,237.0
-Bancroft,3513.0,231.0
-Beltrami,1142.0,144.0
-Bottineau,1618.0,170.0
-Bryant,3179.0,324.0
-Bryn - Mawr,2798.0,124.0
-CARAG,5723.0,262.0
-Camden Industrial,,
-Cedar - Isles - Dean,2901.0,270.0
-Cedar Riverside,8576.0,760.0
-Central,8737.0,451.0
-Cleveland,2980.0,213.0
-Columbia Park,1717.0,91.0
-Como,7208.0,590.0
-Cooper,3614.0,199.0
-Corcoran,4239.0,306.0
-Diamond Lake,5583.0,224.0
-Downtown East,1711.0,123.0
-Downtown West,7357.0,482.0
-ECCO,2497.0,197.0
-East Harriet,3667.0,158.0
-East Isles,3315.0,222.0
-East Phillips,4743.0,631.0
-Elliot Park,6616.0,446.0
-Ericsson,3158.0,155.0
-Field,2511.0,103.0
-Folwell,5196.0,587.0
-Fulton,6194.0,171.0
-Hale,3341.0,151.0
-Harrison,3826.0,644.0
-Hawthorne,4553.0,360.0
-Hiawatha,5798.0,367.0
-Holland,4946.0,570.0
-Howe,6624.0,233.0
-Humboldt Industrial Area,,
-Jordan,8483.0,631.0
-Keewaydin,3315.0,231.0
-Kenny,3606.0,182.0
-Kenwood,1470.0,136.0
-King Field,7718.0,293.0
-Lind - Bohanon,5475.0,395.0
-Linden Hills,8108.0,294.0
-Logan Park,2246.0,234.0
-Longfellow,4613.0,282.0
-Loring Park,8688.0,477.0
-Lowry Hill,3854.0,232.0
-Lowry Hill East,6236.0,507.0
-Lyndale,7436.0,587.0
-Lynnhurst,6025.0,172.0
-Marcy Holmes,11750.0,722.0
-Marshall Terrace,1544.0,100.0
-McKinley,3179.0,374.0
-Mid - City Industrial,244.0,20.0
-Midtown Phillips,5196.0,704.0
-Minnehaha,4240.0,226.0
-Morris Park,2922.0,167.0
-Near - North,6946.0,351.0
-Nicollet Island - East Bank,1377.0,87.0
-North Loop,5072.0,518.0
-Northeast Park,614.0,78.0
-Northrop,4602.0,175.0
-Page,1909.0,92.0
-Phillips West,5190.0,509.0
-Powderhorn Park,9251.0,565.0
-Prospect Park - East River Road,8052.0,433.0
-Regina,2317.0,163.0
-Seward,7376.0,428.0
-Sheridan,2929.0,178.0
-Shingle Creek,3226.0,375.0
-St. Anthony East,2168.0,195.0
-St. Anthony West,2542.0,153.0
-Standish,6546.0,267.0
-Steven's Square - Loring Heights,3963.0,306.0
-Sumner - Glenwood,1767.0,176.0
-Tangletown,4461.0,190.0
-University of Minnesota,5962.0,353.0
-Ventura Village,6028.0,484.0
-Victory,4550.0,279.0
-Waite Park,5558.0,245.0
-Webber - Camden,5296.0,322.0
-Wenonah,4464.0,223.0
-West Calhoun,1938.0,146.0
-Whittier,14828.0,781.0
-Willard - Hay,9345.0,538.0
-Windom,4844.0,240.0
-Windom Park,5381.0,279.0
+neighborhood,totalPop,margin,stopCnt
+Armatage,4915.0,262.0,158
+Audubon Park,5007.0,237.0,1250
+Bancroft,3513.0,231.0,223
+Beltrami,1142.0,144.0,458
+Bottineau,1618.0,170.0,656
+Bryant,3179.0,324.0,167
+Bryn - Mawr,2798.0,124.0,242
+CARAG,5723.0,262.0,970
+Camden Industrial,,,74
+Cedar - Isles - Dean,2901.0,270.0,249
+Cedar Riverside,8576.0,760.0,1166
+Central,8737.0,451.0,1299
+Cleveland,2980.0,213.0,613
+Columbia Park,1717.0,91.0,321
+Como,7208.0,590.0,842
+Cooper,3614.0,199.0,242
+Corcoran,4239.0,306.0,641
+Diamond Lake,5583.0,224.0,240
+Downtown East,1711.0,123.0,545
+Downtown West,7357.0,482.0,6879
+ECCO,2497.0,197.0,525
+East Harriet,3667.0,158.0,319
+East Isles,3315.0,222.0,863
+East Phillips,4743.0,631.0,2364
+Elliot Park,6616.0,446.0,981
+Ericsson,3158.0,155.0,235
+Field,2511.0,103.0,146
+Folwell,5196.0,587.0,2200
+Fulton,6194.0,171.0,246
+Hale,3341.0,151.0,109
+Harrison,3826.0,644.0,736
+Hawthorne,4553.0,360.0,3979
+Hiawatha,5798.0,367.0,479
+Holland,4946.0,570.0,2290
+Howe,6624.0,233.0,428
+Humboldt Industrial Area,,,15
+Jordan,8483.0,631.0,3601
+Keewaydin,3315.0,231.0,193
+Kenny,3606.0,182.0,196
+Kenwood,1470.0,136.0,222
+King Field,7718.0,293.0,1622
+Lind - Bohanon,5475.0,395.0,707
+Linden Hills,8108.0,294.0,396
+Logan Park,2246.0,234.0,758
+Longfellow,4613.0,282.0,1074
+Loring Park,8688.0,477.0,1328
+Lowry Hill,3854.0,232.0,364
+Lowry Hill East,6236.0,507.0,2560
+Lyndale,7436.0,587.0,3438
+Lynnhurst,6025.0,172.0,411
+Marcy Holmes,11750.0,722.0,2768
+Marshall Terrace,1544.0,100.0,636
+McKinley,3179.0,374.0,1418
+Mid - City Industrial,244.0,20.0,552
+Midtown Phillips,5196.0,704.0,1726
+Minnehaha,4240.0,226.0,195
+Morris Park,2922.0,167.0,160
+Near - North,6946.0,351.0,4000
+Nicollet Island - East Bank,1377.0,87.0,1804
+North Loop,5072.0,518.0,1610
+Northeast Park,614.0,78.0,646
+Northrop,4602.0,175.0,331
+Page,1909.0,92.0,72
+Phillips West,5190.0,509.0,1235
+Powderhorn Park,9251.0,565.0,1703
+Prospect Park - East River Road,8052.0,433.0,578
+Regina,2317.0,163.0,216
+Seward,7376.0,428.0,876
+Sheridan,2929.0,178.0,658
+Shingle Creek,3226.0,375.0,255
+St. Anthony East,2168.0,195.0,484
+St. Anthony West,2542.0,153.0,935
+Standish,6546.0,267.0,472
+Steven's Square - Loring Heights,3963.0,306.0,1448
+Sumner - Glenwood,1767.0,176.0,320
+Tangletown,4461.0,190.0,877
+University of Minnesota,5962.0,353.0,127
+Ventura Village,6028.0,484.0,1806
+Victory,4550.0,279.0,819
+Waite Park,5558.0,245.0,651
+Webber - Camden,5296.0,322.0,1215
+Wenonah,4464.0,223.0,231
+West Calhoun,1938.0,146.0,118
+Whittier,14828.0,781.0,5208
+Willard - Hay,9345.0,538.0,2266
+Windom,4844.0,240.0,895
+Windom Park,5381.0,279.0,1063

@@ -35,6 +35,7 @@ class neighborhoodData(db.Model):
     neighborhood = db.Column(String)
     totalPop = db.Column(Integer)
     margin = db.Column(Integer)
+    stopCnt = db.Column(Integer)
     def __repr__(self):
         return '<neighborhoodData %r>' % (self.neighborhood)
 
@@ -105,6 +106,10 @@ def pie():
     
     return render_template("piechart.html")
 
+@app.route("/popstop")
+def popstop():
+    
+    return render_template("popstop.html")
 #################################
 ## endpoints for data
 #returns json of neighborhoods
@@ -117,7 +122,8 @@ def neighbor():
         neighborList.append({
             "neighborhood": result[0],
             "totalPop":result[1],
-            "margin":result[2]
+            "margin":result[2],
+            "stopCnt":result[3]
         })
     return jsonify(neighborList)
 
