@@ -99,7 +99,7 @@ d3.json("/citation")
             .offset([80, -50])
             .html(function(d) {
                 // var city = d.neighborhood;
-                // var cnt = +d.poverty;
+                // var cnt = +d.citationCnt;
                 // var date = +d.responseDay;
                 return (`${d.neighborhood}<hr>: ${d.cnt}<br>: ${d.dow}`);
 
