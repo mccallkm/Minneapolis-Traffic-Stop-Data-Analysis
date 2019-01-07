@@ -25,7 +25,7 @@ var chartGroup = svg.append("g")
 
 // Configure a parseTime function which will return a new Date object from a string
 var parseTime = d3.timeParse("%Y");
-var data = [];
+// var data = [];
 
 // Load data
 d3.json("/citation", function(error, cntData) {
