@@ -7,7 +7,7 @@ from flask import (
     request,
     url_for)
 
-
+import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -180,6 +180,79 @@ def copStop():
         })
     return jsonify(stopList)
 
+
+@app.route("/pieinfo/<neighborhoodname>")
+def pieStop(neighborhoodname):
+
+    sel = [stopData.OBJECTID,stopData.neighborhood,stopData.responseDate,stopData.citationIssued,stopData.lat,
+                                stopData.lon,stopData.gender,stopData.responseDow,stopData.responseDay,stopData.responseMonth,
+                                stopData.responseMonthName,stopData.responseYear,]
+    # results = db.session.query(stopData.OBJECTID,
+    #                             stopData.neighborhood,
+    #                             stopData.responseDate,
+    #                             stopData.citationIssued,
+    #                             stopData.lat,
+    #                             stopData.lon,
+    #                             stopData.gender,
+    #                             stopData.responseDow,
+    #                             stopData.responseDay,
+    #                             stopData.responseMonth,
+    #                             stopData.responseMonthName,
+    #                             stopData.responseYear,
+    #                             ).all()
+    results1 =db.session.query(*sel).\
+        filter(stopData.neighborhood == neighborhoodname).all()
+    
+   
+    pieList = []
+    pieList1=[]  
+    pieList2=[]
+    for result in results1:
+          pieList.append(result[0])
+          pieList1.append(result[6])
+          pieList2.append(result[3])
+
+     
+
+    data={"OBJECTID":pieList,"Gender":pieList1,"Citation":pieList2
+    }
+              
+    return jsonify(data)
+
+# return for a selected neighborhood gender, count of stops, count of citations
+@app.route("/piedata/<hoodname>")
+def pieData(hoodname):
+    sel = [stopData.OBJECTID,stopData.neighborhood,stopData.citationIssued,stopData.gender]
+    results =db.session.query(*sel).filter(stopData.neighborhood == hoodname).all()
+     
+    pieList= []
+    for result in results:
+        pieList.append({'OBJECTID':result[0],
+                        'gender':result[3],
+                        'citationIssued':result[2]
+                        })
+   
+    pie_df=pd.DataFrame(pieList)
+    stops=pie_df.groupby("gender")['OBJECTID'].count()
+    citations=pie_df[pie_df['citationIssued']=='YES'].groupby('gender')['OBJECTID'].count()
+    genderList=[]
+    for i in range(0,3):
+        if i == 0:
+            gend = 'Female'
+        elif i == 1:
+            gend = 'Male'
+        else:
+            gend = 'Other'
+        
+        genderList.append({
+            "gender":gend,
+            "stops":int(stops[gend]),
+            "citations":int(citations[gend])
+            })  
+
+    return jsonify(genderList)
+
+# return data for citations received
 @app.route("/citation")
 def citationGiven():
     results = db.session.query(citationData.responseDate,
