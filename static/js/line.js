@@ -1,6 +1,6 @@
 // Define SVG area dimensions
-var svgWidth = 960;
-var svgHeight = 500;
+var svgWidth = 1000;
+var svgHeight = 600;
 
 // Define the chart's margins as an object
 var margin = {
@@ -20,7 +20,7 @@ var svg = d3.select("#line")
     .append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
-    
+
 
 // Append a group area, then set its margins
 var chartGroup = svg.append("g")
@@ -44,34 +44,36 @@ d3.json("/citation").then(function(cntData) {
     cntData.forEach(function(data) {
 
         // data.date = parseTime(data.responseDate);
-        data.date = +data.responseDay;
+        data.date = data.responseMonth;
         data.cnt = +data.citationCnt;
     });
 
     // Configure a time scale
     // d3.extent returns the an array containing the min and max values for the property specified
 
-    var xTimeScale = d3.scaleTime()
-        .domain(d3.extent(cntData, data => data.responseDay))
+    var xLinearScale = d3.scaleLinear()
+        .domain(d3.extent(cntData, data => data.date))
         .range([0, chartWidth]);
 
     // Configure a linear scale with a range between the chartHeight and 0
     var yLinearScale = d3.scaleLinear()
-        .domain([0, d3.max(cntData, data => data.citationCnt)])
+        .domain([0, d3.max(cntData, data => data.cnt)]).nice()
         .range([chartHeight, 0]);
 
     // Create two new functions passing the scales in as arguments
     // These will be used to create the chart's axes
-    var bottomAxis = d3.axisBottom(xTimeScale);
+    var bottomAxis = d3.axisBottom(xLinearScale);
     var leftAxis = d3.axisLeft(yLinearScale);
 
     // Configure a line function which will plot the x and y coordinates using our scales
     var drawLine = d3.line()
-        .x(data => xTimeScale(data.date))
-        .y(data => yLinearScale(data.cnt));
+        .x(data => xLinearScale(data.date))
+        .y(data => yLinearScale(data.cnt))
+        .curve(d3.curveMonotoneX);
 
     // Append an SVG path and plot its points using the line function
     chartGroup.append("path")
+
 
     // The drawLine function returns the instructions for creating the line
     .attr("d", drawLine(cntData))
