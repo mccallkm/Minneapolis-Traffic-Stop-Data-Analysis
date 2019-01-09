@@ -1,3 +1,7 @@
+#########################################################################
+# Retrieves data from sqlite database using sqlalchemy and serves that data at flask endpoints
+# tables include dowData, neighborhoodData, stopData and citationData
+########################################################################
 from sqlalchemy import Column, Integer, String, Float
 # import necessary libraries
 from flask import (
@@ -10,7 +14,7 @@ from flask import (
 import pandas as pd
 from flask_sqlalchemy import SQLAlchemy
 
-
+## static folder sets the "parent directory" - all link references must be within this directory
 app = Flask(__name__,static_url_path= "/static", static_folder = "static")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///stops.sqlite"
@@ -18,6 +22,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///stops.sqlite"
 db = SQLAlchemy(app)
     
     # Define dowData table
+    # stores neighborhood data by day of week as an integer 0-6 (Sun - Sat) and gender (Male Female Other)
 class dowData(db.Model):
     __tablename__ = 'dowData'
     neighborhood = db.Column((String), primary_key=True)
@@ -29,6 +34,7 @@ class dowData(db.Model):
 
     
 # Define our neighborhoodData table
+# for each neighborhood stores total Population with a margin of error and stop count 
 class neighborhoodData(db.Model):
     __tablename__ = 'neighborhoodData'
     id = db.Column(Integer, primary_key=True)
@@ -39,7 +45,8 @@ class neighborhoodData(db.Model):
     def __repr__(self):
         return '<neighborhoodData %r>' % (self.neighborhood)
 
-     # Define dowData table
+     # Define stopData table
+     # stores data for each stop included
 class stopData(db.Model):
     __tablename__ = 'stopData'
     OBJECTID = db.Column(Integer, primary_key=True)
@@ -58,6 +65,7 @@ class stopData(db.Model):
         return '<stopData %r>' % (self.OBJECTID)
 
     # Define citationData table
+    # stores data for each day of the month (1-31) with a count of citations for that day 
 class citationData(db.Model):
     __tablename__ = 'citationData'
     responseDay = db.Column(Integer, primary_key=True)
@@ -69,7 +77,10 @@ class citationData(db.Model):
 # Flask Routes
 
 ##############################
-## endpoints for html
+## endpoints for html 
+## because htmls files are stored outside of the flask static_folder they cannot be 
+## linked directly from within an html file. These first links allow an indirect reference
+## to html files.
 @app.route("/")
 def index():
     
@@ -105,7 +116,7 @@ def popstop():
     
     return render_template("popstop.html")
 #################################
-## endpoints for data
+## endpoint for data
 #returns json of neighborhoods
 @app.route("/neighborhood")
 def neighbor():
@@ -120,7 +131,8 @@ def neighbor():
             "stopCnt":result[3]
         })
     return jsonify(neighborList)
-
+#################################
+## endpoint for data
 # returns json list of objects containing neighborhood, gender, responseDOW and genderCount
 @app.route("/dow")
 def dayOfWeek():
@@ -139,7 +151,9 @@ def dayOfWeek():
         })
     return jsonify(dowList)
 
-
+#################################
+## endpoint for data
+## returns json list of objects 
 @app.route("/stop")
 def copStop():
     results = db.session.query(stopData.OBJECTID,
@@ -174,26 +188,17 @@ def copStop():
         })
     return jsonify(stopList)
 
-
+#################################
+## endpoint for data
+## returns json with 3 objects which contain lists of stop (citation=YES) information from selected neighborhoodname. 
+# OBJECTID list, Gender list and Citation list
 @app.route("/pieinfo/<neighborhoodname>")
 def pieStop(neighborhoodname):
 
     sel = [stopData.OBJECTID,stopData.neighborhood,stopData.responseDate,stopData.citationIssued,stopData.lat,
                                 stopData.lon,stopData.gender,stopData.responseDow,stopData.responseDay,stopData.responseMonth,
                                 stopData.responseMonthName,stopData.responseYear,]
-    # results = db.session.query(stopData.OBJECTID,
-    #                             stopData.neighborhood,
-    #                             stopData.responseDate,
-    #                             stopData.citationIssued,
-    #                             stopData.lat,
-    #                             stopData.lon,
-    #                             stopData.gender,
-    #                             stopData.responseDow,
-    #                             stopData.responseDay,
-    #                             stopData.responseMonth,
-    #                             stopData.responseMonthName,
-    #                             stopData.responseYear,
-    #                             ).all()
+
     results1 =db.session.query(*sel).\
         filter(stopData.neighborhood == neighborhoodname).all()
     
@@ -212,8 +217,9 @@ def pieStop(neighborhoodname):
     }
               
     return jsonify(data)
-
-# return for a selected neighborhood gender, count of stops, count of citations
+#################################
+## endpoint for data
+## returns json list of objects for a selected neighborhood(hoodname) by gender(Male, Female, Other), count of stops, count of citations
 @app.route("/piedata/<hoodname>")
 def pieData(hoodname):
     sel = [stopData.OBJECTID,stopData.neighborhood,stopData.citationIssued,stopData.gender]
@@ -245,8 +251,9 @@ def pieData(hoodname):
             })  
 
     return jsonify(genderList)
-
-# return data for citations received
+#################################
+## endpoint for data
+## returns json list of objects for each day of the month(1-31) with a count of citations for that day 
 @app.route("/citation")
 def citationGiven():
     results = db.session.query(citationData.responseDay,
