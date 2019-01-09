@@ -3,7 +3,13 @@
 ![alt text](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/static/images/MplsSL.jpg)
 
 Goal:
-This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood.
+This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the number of citations issued in a given neighborhood.
+
+Objectives:
+1. Identify how gender impacts whether a citation is received.
+2. Pinpoint what neighborhoods have the highest number of pull overs.
+3. Determine if citations increased towards the end of the month.
+4. Determine if citations vary by the day of the week.
 
 STOP DATA
 
@@ -26,10 +32,3 @@ POPULATION
 Source:[MSP_CSV_2012_2016.csv] http://www.mncompass.org/profiles/neighborhoods/minneapolis-saint-paul
 
 Source: 2012-2016 American Community Survey 5-year estimates, adjusted to fit current neighborhood boundaries using the 2010 Census counts. The 5-year estimates represent averages of data collected over that time period.
-
-Objectives:
-1. Categorize by problem to highlight key occurrences in specific neighborhoods.
-2. Identify how gender impacts whether a citation is received.
-3. Pinpoint what neighborhoods have the highest number of pull overs.
-4. Determine if citations increased towards the end of the month.
-5. Determine if citations vary by the day of the week.

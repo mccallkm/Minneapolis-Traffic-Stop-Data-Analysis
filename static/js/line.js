@@ -44,7 +44,7 @@ d3.json("/citation").then(function(cntData) {
     cntData.forEach(function(data) {
 
         // data.date = parseTime(data.responseDate);
-        data.date = data.responseMonth;
+        data.date = data.responseDay;
         data.cnt = +data.citationCnt;
     });
 
@@ -57,7 +57,7 @@ d3.json("/citation").then(function(cntData) {
 
     // Configure a linear scale with a range between the chartHeight and 0
     var yLinearScale = d3.scaleLinear()
-        .domain([0, d3.max(cntData, data => data.cnt)]).nice()
+        .domain([d3.min(cntData, data => data.cnt), d3.max(cntData, data => data.cnt)]).nice()
         .range([chartHeight, 0]);
 
     // Create two new functions passing the scales in as arguments
@@ -91,3 +91,26 @@ d3.json("/citation").then(function(cntData) {
         .attr("transform", "translate(0, " + chartHeight + ")")
         .call(bottomAxis);
 });
+// Step 1: Initialize Tooltip
+var toolTip = d3.tip()
+    .attr("class", "tooltip")
+    .offset([80, -60])
+    .html(function(d) {
+        return (`<strong>${dateFormatter(d.date)}<strong><hr>${d.cnt}
+   medal(s) won`);
+    });
+
+// Step 2: Create the tooltip in chartGroup.
+chartGroup.call(toolTip);
+
+// Step 3: Create "mouseover" event listener to display tooltip
+circlesGroup.on("mouseover", function(d) {
+        toolTip.show(d, this);
+    })
+    // Step 4: Create "mouseout" event listener to hide tooltip
+    .on("mouseout", function(d) {
+        toolTip.hide(d);
+    });
+
+// When the browser loads, makeResponsive() is called.
+makeResponsive();
