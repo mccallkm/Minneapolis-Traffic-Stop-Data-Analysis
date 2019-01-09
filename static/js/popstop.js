@@ -9,55 +9,43 @@ function initPage () {
   
   console.log(response);
   var hoodsA=[];
-  var stoparrayA=[];
-  var poparrayA=[];
+  var stoppopA=[];
   var hoodsB=[];
-  var stoparrayB=[];
-  var poparrayB=[];
+  var stoppopB=[];
   var counter = 0;
   // loop through data and save to y values above for plotting 
     response.forEach(function (d) {
+      d.totalPop= +d.totalPop
+      d.stopCnt= +d.stopCnt
       if (counter < 44) {
       hoodsA.push(d.neighborhood);
-      stoparrayA.push(d.stopCnt);
-      poparrayA.push(d.totalPop);  
+      stoppopA.push(d.stopCnt / d.totalPop);
       } else {
         hoodsB.push(d.neighborhood);
-        stoparrayB.push(d.stopCnt);
-        poparrayB.push(d.totalPop);  
+        stoppopB.push(d.stopCnt / d.totalPop);
       }  
       counter++
     })
     var tracePopA = {
       x: hoodsA,
-      y: poparrayA,
-      name: 'Population',
+      y: stoppopA,
+      name: 'Stop / Population Ratio',
       type: 'bar'
     };
-    var traceStopA = {
-      x: hoodsA,
-      y: stoparrayA,
-      name: 'Stop Count',
-      type: 'bar'
-    };
+
       var tracePopB = {
       x: hoodsB,
-      y: poparrayB,
-      name: 'Population',
+      y: stoppopB,
+      name: 'Stop / Population Ratio',
       type: 'bar'
     };
-    var traceStopB = {
-      x: hoodsB,
-      y: stoparrayB,
-      name: 'Stop Count',
-      type: 'bar'
-    };
+
     // plot bar graph 
-  var dataA = [tracePopA, traceStopA];
+  var dataA = [tracePopA];
   var layoutA = {barmode: 'group',title:'A - L Neighborhoods'};    
   Plotly.newPlot('bar1', dataA, layoutA);
 
-  var dataB = [tracePopB, traceStopB];
+  var dataB = [tracePopB];
   var layoutB = {barmode: 'group',title:'L - W Neighborhoods'};    
   Plotly.newPlot('bar2', dataB, layoutB);
   });
