@@ -60,13 +60,7 @@ class stopData(db.Model):
     # Define citationData table
 class citationData(db.Model):
     __tablename__ = 'citationData'
-    responseDate =db.Column(String)
-    neighborhood = db.Column(String, primary_key=True)
-    citationIssued = db.Column(String)
-    responseDay = db.Column(Integer)
-    responseMonth = db.Column(Integer)
-    responseMonthName = db.Column(String)
-    responseYear = db.Column(Integer)
+    responseDay = db.Column(Integer, primary_key=True)
     citationCnt = db.Column(Integer)
     def __repr__(self):
         return '<citationData %r>' % (self.neighborhood)
@@ -255,27 +249,15 @@ def pieData(hoodname):
 # return data for citations received
 @app.route("/citation")
 def citationGiven():
-    results = db.session.query(citationData.responseDate,
-                                citationData.neighborhood,
-                                citationData.citationIssued,
-                                citationData.responseDay,
-                                citationData.responseMonth,
-                                citationData.responseMonthName,
-                                citationData.responseYear,
+    results = db.session.query(citationData.responseDay,
                                 citationData.citationCnt
                                 ).all()
     
     citationList = []
     for result in results:
         citationList.append({
-            "responseDate": result[0],
-            "neighborhood": result[1],
-            "citationIssued":result[2],
-            "responseDay":result[3],
-            "responseMonth":result[4],
-            "responseMonthName":result[5],
-            "responseYear":result[6],
-            "citationCnt":result[7]
+            "responseDay": result[0],
+            "citationCnt": result[1],
         })
     return jsonify(citationList)
 
