@@ -44,7 +44,7 @@ d3.json("/citation").then(function(cntData) {
     cntData.forEach(function(data) {
 
         // data.date = parseTime(data.responseDate);
-        data.date = data.responseMonth;
+        data.date = data.responseDay;
         data.cnt = +data.citationCnt;
     });
 
@@ -57,7 +57,7 @@ d3.json("/citation").then(function(cntData) {
 
     // Configure a linear scale with a range between the chartHeight and 0
     var yLinearScale = d3.scaleLinear()
-        .domain([0, d3.max(cntData, data => data.cnt)]).nice()
+        .domain([d3.min(cntData, data => data.cnt), d3.max(cntData, data => data.cnt)]).nice()
         .range([chartHeight, 0]);
 
     // Create two new functions passing the scales in as arguments
