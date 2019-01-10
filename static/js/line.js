@@ -38,7 +38,7 @@ d3.json("/citation").then(function(cntData) {
     // if (error) throw error;
 
     // Print the citation counts
-    console.log(cntData);
+    // console.log(cntData);
 
     // Format the date and cast the cnt value to a number
     cntData.forEach(function(data) {
@@ -90,27 +90,17 @@ d3.json("/citation").then(function(cntData) {
         .classed("axis", true)
         .attr("transform", "translate(0, " + chartHeight + ")")
         .call(bottomAxis);
+
+
+    // append circles
+    var circlesGroup = chartGroup.selectAll("circle")
+        .data(cntData)
+        .enter()
+        .append("circle")
+        .attr("cx", d => xLinearScale(d.date))
+        .attr("cy", d => yLinearScale(d.cnt))
+        .attr("r", "10")
+        .attr("fill", "gold")
+        .attr("stroke-width", "1")
+        .attr("stroke", "black")
 });
-// Step 1: Initialize Tooltip
-var toolTip = d3.tip()
-    .attr("class", "tooltip")
-    .offset([80, -60])
-    .html(function(d) {
-        return (`<strong>${dateFormatter(d.date)}<strong><hr>${d.cnt}
-   medal(s) won`);
-    });
-
-// Step 2: Create the tooltip in chartGroup.
-chartGroup.call(toolTip);
-
-// Step 3: Create "mouseover" event listener to display tooltip
-circlesGroup.on("mouseover", function(d) {
-        toolTip.show(d, this);
-    })
-    // Step 4: Create "mouseout" event listener to hide tooltip
-    .on("mouseout", function(d) {
-        toolTip.hide(d);
-    });
-
-// When the browser loads, makeResponsive() is called.
-makeResponsive();
