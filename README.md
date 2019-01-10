@@ -29,8 +29,9 @@ Metadata:[Neighborhoods] https://www.arcgis.com/home/item.html?id=7f88316841ce47
 
 POPULATION
 
-Source:[MSP_CSV_2012_2016.csv] http://www.mncompass.org/profiles/neighborhoods/minneapolis-saint-paul
+Source:Minnesota Compass - MINNEAPOLIS-SAINT PAUL NEIGHBORHOODS
+[MSP_CSV_2012_2016.csv] http://www.mncompass.org/profiles/neighborhoods/minneapolis-saint-paul
 
-Source: 2012-2016 American Community Survey 5-year estimates, adjusted to fit current neighborhood boundaries using the 2010 Census counts. The 5-year estimates represent averages of data collected over that time period.
+Their Source: 2012-2016 American Community Survey 5-year estimates, adjusted to fit current neighborhood boundaries using the 2010 Census counts. The 5-year estimates represent averages of data collected over that time period.
 
 NOTE: This project is written in Python 3, HTML, CSS, and Javascript. It uses Flask, Sqlalchemy, sqlite, D3, Plotly, and Bootstrap. Run by executing python app.py at the command line. This will host the page at `http://127.0.0.1:5000/` in your web browser. 
