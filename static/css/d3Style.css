@@ -3,7 +3,7 @@ body {
 }
 
 path {
-    stroke: steelblue;
+    stroke: navy;
     stroke-width: 2;
     fill: none;
 }
@@ -24,7 +24,7 @@ path {
     font: 12px sans-serif;
     text-align: center;
     color: white;
-    background: blue;
+    background: black;
     border: 0;
     border-radius: 10px;
 }
@@ -36,7 +36,7 @@ div.tooltip {
     height: 28px;
     padding: 2px;
     font: 12px sans-serif;
-    background: lightsteelblue;
+    background: black;
     border: 0px;
     border-radius: 8px;
     pointer-events: none;
