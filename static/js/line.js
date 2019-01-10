@@ -142,11 +142,23 @@ d3.json("/citation").then(function(cntData) {
 
     var timeArray = [];
     var lineArray = [];
+    // multiply last days of month by ratio due to less occurances
+    var days2930 = 12/11;
+    var day31 = 12/7;
   
+    console.log(day31);
     for (var i = 0; i < cntData.length; i++) {
 
         timeArray.push(cntData[i].responseDay);
-        lineArray.push(cntData[i].citationCnt);
+        if (i < 28) { 
+            lineArray.push(cntData[i].citationCnt);
+        } else if (i < 30) {
+            lineArray.push(Math.round(cntData[i].citationCnt * days2930));
+            console.log("29,30",lineArray)
+        } else {
+            lineArray.push(Math.round(cntData[i].citationCnt * day31)); 
+            console.log("31",lineArray)
+        }
     }
     console.log(timeArray);
 new Chart(document.getElementById("myChart"), {
