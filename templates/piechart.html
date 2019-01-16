@@ -7,69 +7,22 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Neighborhood - Stops Vs Citation.</title>
+    <title> Gender by Neighborhood - Stops Vs Citation.</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-        
+    
       <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous">
     <link rel="stylesheet" href="../static/css/style.css">
     <link rel="stylesheet" href="../static/css/d3Style.css">
-    
+
 </head>
 
 <body>
- <nav class="navbar navbar-inverse">
 
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-
-                        <span class="sr-only">Toggle navigation</span>
-
-                        <span class="icon-bar"></span>
-
-                        <span class="icon-bar"></span>
-
-                        <span class="icon-bar"></span>
-
-                </button>
-
-                <a class="navbar-brand" href="/">Minneapolis Police Stop Analysis</a>
-
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li class="dropdown">
-
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations
-
-                            <span class="caret"></span>
-
-                        </a>
-
-                        <ul class="dropdown-menu">
-
-                                <li><a href="/dowBar">Day of Week Bar Graph</a></li>
-
-                                <li><a href="/line">Citations by Month Graph</a></li>
-
-                                <li><a href="/pie">Neighborhood Pie Graph</a></li>
-
-                                <li><a href="/popstop">Stop / Population Ratio Graph</a></li>
-
-                        </ul>
-
-                    </li>
-                    
     <div class="container">
 
         <div class="row">
@@ -82,7 +35,7 @@
 
                 <!-- neighborhood1 selection happens here -->
 
-                <select id="selDataset1" onchange="buildCharts(this.value)"></select>
+                <select id="selDataset1" onchange="selectChanged(this.value)"></select>
 
               </div>
 
@@ -93,16 +46,25 @@
         <div id="pie"></div>
 
       </div>
+
    
     <!-- plotly script -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+       
+    <!-- bootstrap scripts
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script> -->
 
     <!-- D3 scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
 
+    <!-- D3 plugin developed by [Justin Palmer](https://github.com/Caged)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>  -->
+
     <!-- Graph script -->
-    <script type="text/javascript" src="../static/js/piechart1.js"></script>
-   
+    <script type="text/javascript" src="../static/js/piechart2.js"></script>
+    
+
 </body>
 
 </html>

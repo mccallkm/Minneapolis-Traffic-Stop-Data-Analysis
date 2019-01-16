@@ -79,7 +79,7 @@ function initPage(){
 
     var choice=response[0].neighborhood;
     buildChart(choice,'bar1');
-    choice=response[0].neighborhood;
+    choice=response[1].neighborhood;
     buildChart(choice,'bar2'); 
   })
 
@@ -98,6 +98,5 @@ function selectChanged (newNeighborhood,graph){
 
 
 }
-
 
 initPage();
