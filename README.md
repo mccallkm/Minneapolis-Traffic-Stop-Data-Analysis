@@ -1,4 +1,4 @@
-# Minneapolis Traffic Stop Data Analysis
+# Minneapolis Traffic Stop Analysis
 
 ![traffic_scene](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/static/images/MplsSL.jpg)
 
