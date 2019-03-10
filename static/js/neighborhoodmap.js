@@ -30,7 +30,7 @@ style: function(feature) {
   };
 },
   onEachFeature: function(feature, layer) {
-    layer.bindPopup("<h3>" + feature.properties.BDNAME + "</h3>");
+    layer.bindPopup("<h5>" + feature.properties.BDNAME + "</h5>");
   }
   // Called on each feature
   // onEachFeature: function(feature, layer) {

@@ -43,11 +43,11 @@ function initPage () {
     // plot bar graph 
   var dataA = [tracePopA];
   var layoutA = {barmode: 'group',title:'A - L Neighborhoods'};    
-  Plotly.newPlot('bar1', dataA, layoutA);
+  Plotly.newPlot('bar3', dataA, layoutA);
 
   var dataB = [tracePopB];
   var layoutB = {barmode: 'group',title:'L - W Neighborhoods'};    
-  Plotly.newPlot('bar2', dataB, layoutB);
+  Plotly.newPlot('bar4', dataB, layoutB);
   });
 
 }

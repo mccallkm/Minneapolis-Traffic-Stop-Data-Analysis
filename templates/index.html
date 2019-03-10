@@ -33,10 +33,9 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                                <li><a href="/dowBar">Day of Week Bar Graph</a></li>
                                 <li><a href="/line">Citations by Month Graph</a></li>
                                 <!-- <li><a href="/pie">Neighborhood Pie Graph</a></li> -->
-                                <li><a href="/popstop">Stop / Population Ratio Graph</a></li>
+                                <li><a href="/dowBar">Day of Week Bar Graph</a></li>
                         </ul>
                     </li>
                     <li>
@@ -59,10 +58,12 @@
                             <section id="text">
                                 <img id="summary-image" src="/static/images/MplsSL.jpg " alt="Minneapolis-Image ">
                                 
-                                <p>Goal: This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the types of citations issued in a given neighborhood. </p>
-                                <h3> Stop Data</h3>
-                                <p>Source: http://opendata.minneapolismn.gov/datasets/police-stop-data</p>
-
+                                <p>Goal: This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify:
+                                    <ol>
+                                        <li> When are traffic stops made within the month? Are there  more stops at the end of the month? </li>
+                                        <li> When are traffic stops made within the week? Do similar neighborhoods have similar patterns? </li> 
+                                        <li> What neighborhoods have the highest number of pull overs? </li>
+                                    </ol>
                                 <p>Data Elements: OBJECTID |masterIncidentNumber |responseDate |reason |problem |callDisposition |citationIssued |personSearch |vehicleSearch |preRace |race |gender |lat |long |x |y |policePrecinct |neighborhood |lastUpdateDate</p>
 
                                 <p>Metadata: https://www.arcgis.com/home/item.html?id=215b4b543d894750aef86c725b56ee2a</p>
@@ -77,24 +78,13 @@
 
                                 <p>Source: 2012-2016 American Community Survey 5-year estimates, adjusted to fit current neighborhood boundaries using the 2010 Census counts. The 5-year estimates represent averages of data collected over that time period.</p>
                                 
-                                <p>Objectives:</p>
-                                    <ul>
-                                        <li>1. Categorize by problem to highlight key occurrences in specific neighborhoods.</li>
-                                        <li>2. Identify how gender impacts whether a citation is received.</li>
-                                        <li>3. Pinpoint what neighborhoods have the highest number of pull overs.</li>
-                                        <li>4. Determine if citations increased towards the end of the month.</li>
-                                        <li>5. Determine if citations vary by the day of the week.</li>
-                                    </ul>
                             </section>
                         </section>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div id="map "></div>
-    <script type="text/javascript " src="../static/js/config.js "></script>
-    <script type="text/javascript " src="../static/js/neighborhoodmap.js "></script>
-    <script type="text/javascript " src="../static/js/raphael.js "></script> -->
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous"></script>
