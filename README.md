@@ -33,12 +33,12 @@ POPULATION
 
 Their Source: 2012-2016 American Community Survey 5-year estimates, adjusted to fit current neighborhood boundaries using the 2010 Census counts. The 5-year estimates represent averages of data collected over that time period.
 
-The visualizations include: A bar graph comparing two selected neighborhhods and the number of stops in each by the day of the week.
-![DayOfWeek.png](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/static/images/DayOfWeek.png)
-
-The a curve showing number of citation given for each day of the month.
+The visualizations include: The a curve showing number of citation given for each day of the month.
 
 ![DayOfMonth.png](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/static/images/DayOfMonth.png)
+
+A bar graph comparing two selected neighborhhods and the number of stops in each by the day of the week.
+![DayOfWeek.png](https://raw.githubusercontent.com/mccallkm/Team_Bostock/master/static/images/DayOfWeek.png)
 
 The bar graph with number of stops per resident for each neighborhood 
 
