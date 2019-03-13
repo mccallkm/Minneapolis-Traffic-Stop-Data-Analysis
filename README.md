@@ -11,7 +11,7 @@ Objectives:
 3. Determine if citations increased towards the end of the month.
 4. Determine if citations vary by the day of the week.
 
-STOP DATA
+Police Stop Data
 
 [Source:](http://opendata.minneapolismn.gov/datasets/police-stop-data)
 
