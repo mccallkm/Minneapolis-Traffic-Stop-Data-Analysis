@@ -54,3 +54,5 @@ A heat map of the stops.
 
 NOTE: This project is written in Python 3, HTML, CSS, and Javascript. It uses sqlite for a database and uses Flask, Sqlalchemy to serve the data to an API for visualization.  The visualization uses D3, Plotly, and Bootstrap. 
 After downloading run by executing python app.py at the command line. This will host the page at `http://127.0.0.1:5000/` in your web browser. 
+
+This app is also hosted on [Heroku](https://mpls-traffic-stop-data.herokuapp.com/)
