@@ -18,8 +18,8 @@ from flask_sqlalchemy import SQLAlchemy
 ## static folder sets the "parent directory" - all link references must be within this directory
 app = Flask(__name__,static_url_path= "/static", static_folder = "static")
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','') or "sqlite:///db/stops.sqlite"
-
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/stops.sqlite"
+#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL','') or "sqlite:///db/stops.sqlite"
 
 db = SQLAlchemy(app)
     
