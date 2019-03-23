@@ -11,6 +11,8 @@ Objectives:
 3. Determine if citations increased towards the end of the month.
 4. Determine if citations vary by the day of the week.
 
+This app is also hosted on [Heroku](https://mpls-traffic-stop-data.herokuapp.com/)
+
 Police Stop Data
 
 [Source:](https://opendata.minneapolismn.gov/datasets/police-stop-data)
@@ -55,4 +57,3 @@ A heat map of the stops.
 NOTE: This project is written in Python 3, HTML, CSS, and Javascript. It uses sqlite for a database and uses Flask, Sqlalchemy to serve the data to an API for visualization.  The visualization uses D3, Plotly, and Bootstrap. 
 After downloading run by executing python app.py at the command line. This will host the page at `http://127.0.0.1:5000/` in your web browser. 
 
-This app is also hosted on [Heroku](https://mpls-traffic-stop-data.herokuapp.com/)
