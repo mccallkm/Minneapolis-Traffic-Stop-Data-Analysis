@@ -6,7 +6,7 @@ Goal:
 This project will examine traffic citations of the Minneapolis, MN Police Department. Our analysis aims to identify correlations with gender and the number of citations issued in a given neighborhood.
 
 Objectives:
-1. Identify how gender impacts whether a citation is received.
+1. Identify how gender impacts whether a citation is received.(evaluated in a separate branch)
 2. Pinpoint what neighborhoods have the highest number of pull overs.
 3. Determine if citations increased towards the end of the month.
 4. Determine if citations vary by the day of the week.
